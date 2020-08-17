@@ -1,177 +1,177 @@
-OBJECTID,SITE_NAME,PUBLIC_ACC,ACREAGE,COUNTY,ADDRESS,Lat,Long
-1,Tomoka State Park,Open-Fee Required,1627.99757,Volusia,"2099 N Beach St Ormond Beach, Fl 32174",29.328184,-81.07734
-2,Lake Kissimmee State Park,Open-Fee Required,5893.226812,"Polk, Osceola","14248 Camp Mack Rd Lake Wales, Fl 33898",27.972112,-81.379784
-3,Lake Manatee State Park,Open-Fee Required,548.8545707,Manatee,"20007 Sr 64 Bradenton, Fl 34202",27.475207,-82.344167
-4,Ochlockonee River State Park,Open-Fee Required,538.3590107,Wakulla,"429 State Park Rd Sopchoppy, Fl 32358 Po Box 5",29.999161, -84.484893
-5,Olustee Battlefield Historic State Park,Open-No Fee Required,617.0491625,Baker,"5815 Battlefield Trail Rd. Olustee, Fl 32087",30.658345,-85.342586
-6,St. Lucie Inlet Preserve State Park,Open-Fee Required,4848.794255,Martin,"St Lucie Inlet Preserve State Park Martin County, Fl",29.795592,-81.858974
-7,The Barnacle Historic State Park,Open-Fee Required,9.39333556,Dade,"3485 Main Hwy Coconut Grove, Fl 33133",25.731554,-80.243005
-8,Lake Jackson Mounds Archaeological State Park,Open-Fee Required,199.811184,Leon,"3600 Indian Mounds Rd. Tallahassee, Fl 32303",30.501457, -84.313858
-9,Koreshan State Park,Open-Fee Required,196.1546873,Lee,"3800 Corkscrew Road Estero, Fl 33928",26.431186,-81.814201
-10,Hillsborough River State Park,Open-Fee Required,3319.051416,Hillsborough,"15402 Us 301 N Thonotosassa, Fl 33592",28.141049,-82.226658
-11,John Gorrie Museum State Park,Open-Fee Required,0.96421645,Franklin,"46 5Th Street Apalachicola, Fl 32320",29.724972,-84.9841
-12,Blue Spring State Park,Open-Fee Required,2659.052864,Volusia,"2100 W French Ave Orange City, Fl 32763",28.952332,-81.334823
-13,Stephen Foster Folk Culture Center State Park,Open-Fee Required,903.89855,"Hamilton, Columbia","11016 Lillian Saunders Drive White Springs, Fl 32096 Po Box G",30.331735, -82.76548
-14,Rock Springs Run State Reserve,Open-Fee Required,14164.77411,"Orange, Lake, Seminole","Rock Springs Run State Reserve County Rd. 433 Sorento, Fl",30.353662,-82.780363
-15,Fakahatchee Strand Preserve State Park,Open-Fee Required,79657.11313,Collier,"137 Coastline Dr Copeland, Fl 34137 Po Box 548",25.951129,-81.360049
-16,Palatka-to-Lake Butler State Trail,Open-No Fee Required,613.9402595,"Bradford, Clay, Putnam, Union","6065 Twin Lakes Rd. Keystone Heights, Fl 32656",29.773438,-81.998565
-17,Windley Key Fossil Reef Geological State Park,Open-Fee Required,320.3783652,Monroe,"84900 Overseas Highway Islamorada, Fl 33036 Po Box 1052",24.948981,-80.59653
-18,Bulow Creek State Park,Open-No Fee Required,5698.137759,"Flagler, Volusia","3335 Old Dixie Hwy Ormond Beach, Fl 32174",29.387807,-81.132354
-19,Fanning Springs State Park,Open-Fee Required,196.633789,Levy,"11650 Nw 115Th Street Chiefland, Fl 32034",29.496195,-82.964207
-20,Werner-Boyce Salt Springs State Park,Open-Fee Required,4004.09792,Pasco,"9120 Old Post Road Port Richey, Fl 34668",28.290002,-82.724458
-21,Troy Spring State Park,Open-Fee Required,83.57163866,Lafayette,"674 Troy Spring Rd. Branford, Fl 32008",30.004856,-82.998853
-22,Three Servicemen Memorial (Managed by Orman House),Open-No Fee Required,1.23707768,Franklin,"177 5Th St  Apalachicola, Fl 32320",29.72972,-84.9902
-23,Orman House Historic State Park,Open-Fee Required,9.02839825,Franklin,"177 5Th St  Apalachicola, Fl 32320",29.729719,-84.990196
-24,Withlacoochee State Trail,Open-No Fee Required,761.5821491,"Citrus, Hernando, Pasco","2246 W Magenta Dr. Citurs Springs, Fl 34434",29.02694,-82.47062
-25,Dunns Creek State Park,Open-No Fee Required,6349.930828,Putnam,"Dunns Creek State Park Florida 15 Pomona Park, Fl",29.49737,-81.59129
-26,Long Key State Park,Open-Fee Required,1001.759746,Monroe,"67400 Overseas Hwy  Long Key, Fl 33001 Po Box 776",24.82345,-80.81694
-27,T.H. Stone Memorial St. Joseph Peninsula State Park,Open-Fee Required,2790.912394,Gulf,"8899 Cape San Blas Rd Port St Joe, Fl 32456",29.7559,-85.39543
-28,Colt Creek State Park,Open-No Fee Required,5067.007724,Polk,"16000 State Road 471 Lakeland, Fl 33809",28.28164,-82.05547
-29,Eden Gardens State Park,Open-Fee Required,161.0359574,Walton,"181 Eden Gardens Rd. Santa Rosa Beach, Fl 32450",30.37147,-86.11818
-30,Oscar Scherer State Park,Open-Fee Required,1396.323315,Sarasota,"1843 S Tamiami Tr Osprey, Fl 34229",27.18228,-82.4836
-31,Deer Lake State Park,Open-Fee Required,2009.442959,Walton,"6350 East County Rd. 30-A Santa Rosa Beach, Fl 32459",30.30576,-86.07408
-32,Torreya State Park,Open-Fee Required,14090.99134,"Liberty, Gadsden","2576 Nw Torreya Pk Road Bristol, Fl 32321",30.57162,-84.94584
-33,Collier-Seminole State Park,Open-Fee Required,7270.799973,Collier,"20200 E Tamiami Trail Naples, Fl 34114",25.99274,-81.59049
-34,North Peninsula State Park,Open-No Fee Required,556.0654293,Volusia,"40 Highbridge Rd. Ormond By The Sea, Fl 32176",29.33212,-81.06284
-35,Ichetucknee Springs State Park,Open-Fee Required,2531.969426,"Columbia, Suwannee","12087 Sw Us Hwy 27 Ft White, Fl 32038",29.95149,-82.77828
-36,San Pedro Underwater Archaeological Preserve State Park,Open-No Fee Required,643.6235236,Monroe,"77200 Overseas Hwy Islamorada, Fl 33001",24.88028,-80.69456
-37,General James A. Van Fleet State Trail,Open-No Fee Required,421.6976855,"Sumter, Lake, Polk","7683 Berkley Road Polk City, Fl 33968",28.18002,-81.82727
-38,Cedar Key Museum State Park,Open-Fee Required,18.62748893,Levy,"12231 Sw 166 Ct Cedar Key, Fl 32625",29.15056,-83.04802
-39,De Leon Springs State Park,Open-Fee Required,624.7891182,Volusia,"601 Ponce De Leon Blvd De Leon Springs, Fl 32130",29.13076,-81.3595
-40,Haw Creek Preserve State Park,Open-No Fee Required,3061.669373,"Flagler, Volusia, Putnam","Haw Creek Preserve State Park Seville, Fl",29.26519,-81.33464
-41,Terra Ceia Preserve State Park,Open-No Fee Required,1948.016081,Manatee,"130 Terra Ceia Rd. Terra Ceia, Fl 34606",27.57947,-82.57211
-42,Mike Roess Gold Head Branch State Park,Open-Fee Required,2366.87236,Clay,"6239 Sr 21 Keystone Heights, Fl 32656",29.85033,-81.95911
-43,Curry Hammock State Park,Open-Fee Required,1049.684172,Monroe,"56200 Overseas Hwy Marathon, Fl 33050",24.74197,-80.9817
-44,Seabranch Preserve State Park,Open-No Fee Required,921.4925373,Martin,"6093 Se Dixie Highway Stuart, Fl 34997",27.13049,-80.16972
-45,Fort Mose Historic State Park,Open-Fee Required,41.34664847,St. Johns,"15 Fort Mose Trail St. Augustine, Fl 32084",29.92961,-81.32509
-46,Dr. Von D. Mizell-Eula Johnson State Park,Open-Fee Required,312.669541,Broward,"6503 N Ocean Dr Dania Bch, Fl 33004",26.05515,-80.11404
-47,Camp Helen State Park,Open-Fee Required,189.9307198,Bay,"23937 Panama City Beach Parkway Panama City Beach, Fl 32413",30.27327,-85.99227
-48,St. Sebastian River Preserve State Park,Open-No Fee Required,21629.353,"Brevard, Indian River","1000 Buffer Preserve Drive Fellsmere, Fl 32948",27.83092,-80.60128
-49,Nature Coast State Trail,Open-No Fee Required,656.2721184,"Dixie, Gilchrist, Levy","18020 Nw Hwy 19 Fanning Springs, Florida 32693",29.5911,-82.93552
-50,Cockroach Bay Preserve State Park,Open-No Fee Required,614.9614388,Hillsborough,"End Of Cockroach Bay Rd. Ruskin, Fl 33570",27.6874,-82.49516
-51,Ybor City Museum State Park,Open-Fee Required,0.95783507,Hillsborough,"1818 E. 9Th Avenue Tampa, Fl 33605",27.96191,-82.43832
-52,Lower Wekiva River Preserve State Park,Open-No Fee Required,17376.25875,"Lake, Seminole","8300 W. State Rd. 46 Sanford, Fl 32712",28.81499,-81.40517
-53,Lake Griffin State Park,Open-Fee Required,620.6567868,Lake,"3089 Us Highway 441/27 Fruitland Park, Fl 34731",28.85706,-81.90048
-54,Manatee Springs State Park,Open-Fee Required,2455.68584,Levy,"11650 Nw 115 St Chiefland, Fl 32626",29.48783,-82.97703
-55,Mound Key Archaeological State Park,Open-No Fee Required,119.9475835,Lee,"Mound Key Archaeological State Park Estero, Fl 33928",33.0069,-87.6369
-56,Myakka River State Park,Open-Fee Required,37197.67704,"Manatee, Sarasota","13208 State Rd 72 Sarasota, Fl 34241",27.2408,-82.31592
-57,Henderson Beach State Park,Open-Fee Required,228.3630076,Okaloosa,"17000 Emerald Coast Pkwy Destin, Fl 32541",30.38489,-86.44238
-58,Dudley Farm Historic State Park,Open-Fee Required,333.4619373,Alachua,"18730 W. Newberry Rd. Newberry, Fl 32669",29.65784,-82.5395
-59,Lignumvitae Key Botanical State Park,Open-Fee Required,10724.21519,Monroe,"77200 Overseas Hwy Islamorada, Fl 33001",24.88028,-80.69456
-60,Gasparilla Island State Park,Open-Fee Required,126.3577578,Lee,"880 Belcher Rd Boca Grande, Fl 33921 Po Box 1150",26.71954,-82.26011
-61,Don Pedro Island State Park,Open-Fee Required,245.1209001,Charlotte,"8450 Placida Rd. Cape Haze, Fl 33946",26.85588,-82.30268
-62,Edward Ball Wakulla Springs State Park,Open-Fee Required,6069.767485,Wakulla,"465 Wakulla Park Dr Wakulla Springs, Fl 32327",30.22869,-84.30266
-63,Wes Skiles Peacock Springs State Park,Open-Fee Required,761.0044643,Suwannee,"18181 185Th Rd. Live Oak, Fl 32060",30.11113,-83.12551
-64,Ellie Schiller Homosassa Springs Wildlife State Park,Open-Fee Required,200.8510453,Citrus,"4150 S Suncoast Blvd Homosassa, Fl 34446",28.80074,-82.57812
-65,Fort George Island Cultural State Park,Open-No Fee Required,806.2077241,Duval,"11241 Fort George Rd. Jacksonville, Fl 32226",30.43527,-81.43038
-66,Lake June-in-Winter Scrub Preserve State Park,Open-Fee Required,845.6716149,Highlands,"Daffodil Rd. Lake Placid, Fl 33852",27.30466,-81.34358
-67,Okeechobee Battlefield Historic State Park,Open-No Fee Required,145.3234675,Okeechobee,"3500 Se 38Th Ave. Okeechobee, Fl 34974",27.21217,-80.78906
-68,Kissimmee Prairie Preserve State Park,Open-Fee Required,53738.52433,"Okeechobee, Osceola","33104 Nw 192Nd Ave Okeechobee, Fl 34972",27.54359,-81.0227
-69,Letchworth-Love Mounds Archaeological State Park,Open-No Fee Required,190.1135737,Jefferson,"4500 Sunray Rd. South Tallahassee, Fl 32309",30.52185,-83.99065
-70,Hugh Taylor Birch State Park,Open-Fee Required,162.5397866,Broward,"3109 E Sunrise Blvd Ft Lauderdale, Fl 33304",26.14086,-80.10318
-71,Lafayette Blue Springs State Park,Open-Fee Required,713.915426,Lafayette,"799 Nw Blue Spring Rd May, Fl 32066",30.10794,-83.23645
-72,Tarkiln Bayou Preserve State Park,Open-Fee Required,4473.244419,Escambia,"2401 Bauer Rd. Pensacola, Fl 32507",30.37312,-87.4023
-73,Ravine Gardens State Park,Open-Fee Required,152.6692793,Putnam,"1600 Twigg St. Palatka, Fl 32177",30.37312,-87.4023
-74,Yellow River Marsh Preserve State Park,Open-No Fee Required,833.6800592,Santa Rosa,"7720 Deaton Bridge Rd Holt, Fl 32564",30.7097,-86.87586
-75,Blackwater River State Park,Open-Fee Required,635.8222842,Santa Rosa,"7720 Deaton Bridge Rd Holt, Fl 32564",30.7097,-86.87586
-76,Bulow Plantation Ruins Historic State Park,Open-Fee Required,147.9696586,Flagler,"3501 Old Kings Rd. Flagler Beach, Fl 32136",29.43021,-81.15348
-77,Indian Key Historic State Park,Open-No Fee Required,110.9221269,Monroe,"Indian Key, Fl",27.86316,-82.84096
-78,Constitution Convention Museum State Park,Open-Fee Required,13.22145831,Gulf,"200 Allen Memorial Way Port St Joe, Fl 32456",29.7935,-85.29679
-79,Oleta River State Park,Open-Fee Required,1032.778115,Dade,"3400 Ne 163Rd St N Miami, Fl 33160",25.92852,-80.1349
-80,Pumpkin Hill Creek Preserve State Park,Open-No Fee Required,4077.132725,Duval,"13802 Pumpkin Hill Road Jacksonville, Fl 32226",30.48065,-81.48787
-81,Crystal River Archaeological State Park,Open-Fee Required,61.48455729,Citrus,"3400 N Museum Pt Crystal River, Fl 34428",28.90936,-82.62795
-82,Dade Battlefield Historic State Park,Open-Fee Required,80.52228175,Sumter,"7200 Cr 603 - S Battlefield Drive Bushnell, Fl 33513",28.65306,-82.12727
-83,Falling Waters State Park,Open-Fee Required,166.2381542,Washington,"1130 State Park Rd Chipley, Fl 32428",30.73087,-85.52882
-84,Faver-Dykes State Park,Open-Fee Required,6027.639145,St. Johns,"1000 Faver-Dykes Rd. St. Augustine, Fl 32181",29.66914,-81.26672
-85,Fernandina Plaza Historic State Park,Open-No Fee Required,0.79794502,Nassau,"Estrada Street Fernandina Beach, Fl 32034",30.68897,-81.45617
-86,Gamble Rogers Memorial State Recreation Area at Flagler Beach,Open-Fee Required,133.7111771,Flagler,"3100 South A1A Flagler Beach, Fl 32136",29.44157,-81.10967
-87,Forest Capital Museum State Park,Open-Fee Required,13.93089675,Taylor,"204 Forest Park Dr Perry, Fl 32348",30.07997,-83.56815
-88,Ponce de Leon Springs State Park,Open-Fee Required,380.8407682,"Holmes, Walton","2860 Ponce De Leon Springs Rd Ponce De Leon, Fl 32455",30.72288,-85.93033
-89,Fort Cooper State Park,Open-Fee Required,708.0532338,Citrus,"3100  S Old Floral City Rd Inverness, Fl 34450",28.81669,-82.30279
-90,Stump Pass Beach State Park,Open-No Fee Required,211.2385339,Charlotte,"South End Of Manasota Key 900 Gulf Blvd. Englewood, Fl 34233",26.90639,-82.34978
-91,Indian River Lagoon Preserve State Park,Open-No Fee Required,564.0112848,Brevard,"Old Florida Trail Melbourne Beach, Fl 32951",27.93688,-80.49816
-92,Judah P. Benjamin Confederate Memorial at Gamble Plantation Historic State Park,Open-Fee Required,33.04108297,Manatee,"3708 Patten Avenue Ellenton, Fl 34222",27.5223,-82.52572
-93,Jonathan Dickinson State Park,Open-Fee Required,10441.68093,"Martin,Palm Beach","16450 Se Federal Hwy Hobe Sound, Fl 33455",26.99561,-80.14494
-94,Devil's Millhopper Geological State Park,Open-Fee Required,67.23843329,Alachua,"4732 Millhopper Rd. Gainesville, Fl 32653",29.70796,-82.39639
-95,Highlands Hammock State Park,Open-Fee Required,9237.747386,"Highlands, Hardee","5931 Hammock Rd Sebring, Fl 33872",27.47191,-81.53934
-96,Little Manatee River State Park,Open-Fee Required,2432.613163,Hillsborough,"215 Lightfoot Rd Wimauma, Fl 33598",27.66311,-82.37375
-97,Hontoon Island State Park,Open-No Fee Required,1653.821531,"Volusia, Lake","2309 River Ridge Rd Deland, Fl 32720",28.97418,-81.35708
-98,River Rise Preserve State Park,Open-Fee Required,3827.195795,"Alachua, Columbia","373 Southwest Us Hwy 27 High Springs, Fl 32643",29.95638,-82.92561
-99,Paynes Creek Historic State Park,Open-Fee Required,398.5714748,Hardee,"888 Lake Branch Rd Bowling Green, Fl 33834",27.62339,-81.80906
-100,Big Lagoon State Park,Open-Fee Required,706.7647301,Escambia,"12301 Gulf Beach Hwy Pensacola, Fl 32507",30.31078,-87.41671
-101,Avalon State Park,Open-No Fee Required,657.5799118,St. Lucie,"5400 A1A Fort Pierce, Fl 34949",26.20264,-80.09435
-102,Allen David Broussard Catfish Creek Preserve State Park,Open-No Fee Required,8329.215449,Polk,"4335 Firetower Rd. Haines City, Fl 33844",27.98404,-81.49691
-103,Bald Point State Park,Open-Fee Required,4875.884194,Franklin,"146 Box Cut Rd Alligator Point, Fl 32346",29.90876,-84.34321
-104,Lovers Key State Park,Open-Fee Required,1442.444839,Lee,"8700 Estero Blvd Ft Myers Beach, Fl 33931",26.43695,-81.92165
-105,Fort Pierce Inlet State Park,Open-Fee Required,713.5988776,St. Lucie,"905 Shorewinds Dr Ft Pierce, Fl 34949",27.48536,-80.30348
-106,Madison Blue Spring State Park,Open-Fee Required,49.72627281,Madison,"8300 Ne State Rd. 6 Lee, Fl 32059",30.47944,-83.24591
-107,Wingate Creek State Park,Open-Prior Arrangement Required,614.2233508,Manatee,"20007 Sr 64 Bradenton, Fl 34202",27.477,-82.34721
-108,South Fork State Park,Open-Prior Arrangement Required,1129.442267,Manatee,"20007 Sr 64 Bradenton, Fl 34202",27.477,-82.34721
-109,Atlantic Ridge Preserve State Park,Open-Prior Arrangement Required,4886.047599,Martin,"8120 Se Paulson Ave Stuart, Fl 34997",27.10309,-80.24136
-110,Perdido Key State Park,Open-Fee Required,302.9019863,Escambia,"15301 Perdido Key Dr. Pensacola, Fl 32507",30.29289,-87.46383
-111,Paynes Prairie Preserve State Park,Open-Fee Required,21561.6482,Alachua,"100 Savannah Blvd Micanopy, Fl 32667",29.51983,-82.29496
-112,Gainesville-to-Hawthorne State Trail,Open-Fee Required,140.2017158,Alachua,"3400 Se 15 Street Gainesville,Fl 32641",29.62085,-82.30647
-113,Wekiwa Springs State Park,Open-Fee Required,9341.063364,"Seminole, Orange, Lake","1800 Wekiwa Cir Apopka, Fl 32712",28.71127,-81.46227
-114,John D. MacArthur Beach State Park,Open-Fee Required,436.3945528,Palm Beach,"10900 Jack Nichlaus Drive North Palm Beach, Fl 33408",26.82641,-80.04343
-115,Suwannee River Wilderness Trail,Open-Fee Required,74.03878232,"Dixie, Hamilton, Lafayette, Suwannee","4298 Nw County Road 292 Mayo, Fl 32066",30.15297,-83.24481
-116,Charlotte Harbor Preserve State Park,Open-No Fee Required,45444.68242,"Lee, Charlotte","12301 Burnt Store Rd. Punta Gorda, Fl 33955",26.8513,-82.02213
-117,Econfina River State Park,Open-Fee Required,4585.322037,Taylor,"4741 Econfina River Rd. Lamont, Fl 32336",30.05999,-83.90644
-118,Fort Clinch State Park,Open-Fee Required,2178.2033,Nassau,"2601 Atlantic Ave Fernandina Beach, Fl 32034",30.66807,-81.43521
-119,Lake Louisa State Park,Open-Fee Required,4608.07406,Lake,"7305 Us Hwy 27 Clermont, Fl 34714",28.45489,-81.72709
-120,Suwannee River State Park,Open-Fee Required,1932.768318,"Hamilton, Madison, Suwannee","3631 201St Path Live Oak, Fl 32060",30.38068,-83.16608
-121,Yulee Sugar Mill Ruins Historic State Park,Open-No Fee Required,4.60114182,Citrus,"10465 W Yulee Dr. Homosassa, Fl 34448",28.78483,-82.6075
-122,Yellow Bluff Fort Historic State Park,Open-No Fee Required,1.73597065,Duval,"9400 New Berlin Rd. Jacksonville, Fl 32226",30.40132,-81.56046
-123,Washington Oaks Gardens State Park,Open-Fee Required,430.1594979,Flagler,"6400 N Oceanshore Blvd Palm Coast, Fl 32137",29.63312,-81.20748
-124,San Marcos de Apalache Historic State Park,Open-Fee Required,15.35049759,Wakulla,"148 Old Fort Rd. St. Marks, Fl 32355",30.15202,-84.21078
-125,Dr. Julian G. Bruce St. George Island State Park,Open-Fee Required,2023.570903,Franklin,"1900 E Gulf Beach Dr St George Island, Fl 32328",29.7494,-84.71024
-126,Crystal River Preserve State Park,Open-No Fee Required,27596.8391,Citrus,"3266 N Sailboat Avenue Crystal River, Fl 34428",28.90944,-82.63595
-127,Ichetucknee Trace,Open-Prior Arrangement Required,663.5522602,Columbia,"12087 Sw Us Hwy 27 Ft White, Fl 32038",29.95149,-82.77828
-128,St. Marks River Preserve State Park,Open-No Fee Required,2590.011292,"Leon, Jefferson","11950 Tram Rd. Tallahassee, Fl 32311",30.37277,-84.08259
-129,Fred Gannon Rocky Bayou State Park,Open-Fee Required,346.6504702,Okaloosa,"4281 State Rd. 20 Niceville, Fl 32578",30.49793,-86.43175
-130,George Crady Bridge Fishing Pier State Park,Open-Fee Required,110.4971102,"Nassau, Duval","9549 1St Coast Hwy, Fernandina Beach, Fl 32034",30.55716,-81.44995
-131,Bill Baggs Cape Florida State Park,Open-Fee Required,506.3679317,Dade,"1200 S Crandon Blvd Key Biscayne, Fl 33149",25.67534,-80.16145
-132,Madira Bickel Mound State Archaeological Site,Open-No Fee Required,9.18526791,Manatee,"955 Bayshore Dr. Terra Ceia, Fl 34250",27.56499,-82.59317
-133,Tallahassee-St. Marks Historic Railroad State Trail,Open-No Fee Required,150.7980529,"Leon, Wakulla","1358 Old Woodville Rd. Crawfordville, Fl 32327",30.24493,-84.23476
-134,Alfred B. Maclay Gardens State Park,Open-Fee Required,1170.192354,Leon,"3540 Thomasville Rd Tallahassee, Fl 32309",30.51414,-84.24749
-135,Anastasia State Park,Open-Fee Required,1593.16596,St. Johns,"300 Anastasia Park Rd. St Augustine, Fl 32080",29.87727,-81.28026
-136,Big Shoals State Park,Open-No Fee Required,1681.008255,"Hamilton, Columbia","11330 Southeast County Rd 135 White Springs, Fl 32096",30.3453,-82.73516
-137,Anclote Key Preserve State Park,Open-Fee Required,12209.61517,"Pinellas, Pasco","Anclote Key Tarpon Springs, Fl 34689",28.19029,-82.75271
-138,Addison Blockhouse Historic State Park,Open-No Fee Required,147.9340805,Volusia,"2099 N Beach Street Ormond Beach, Fl 32174",29.341021,-81.084793
-139,Fort Zachary Taylor Historic State Park,Open-Fee Required,55.73610786,Monroe,"601 Howard England Way Key West, Fl 33040",24.54684,-81.80824
-140,Florida Keys Overseas Heritage Trail,Open-No Fee Required,757.8513667,Monroe,"3 La Croix Court Key Largo, Fl 33037",25.19447,-80.3526
-141,Alafia River State Park,Open-Fee Required,7717.809873,Hillsborough,"14326 South County Rd 39 Lithia, Fl 33547",27.784769,-82.14135
-142,Florida Caverns State Park,Open-Fee Required,1449.596178,Jackson,"3345 Caverns Rd Marianna, Fl 32446",30.80837,-85.21238
-143,Ruth B. Kirby Gilchrist Blue Springs State Park,Open-Fee Required,402.4170276,Gilchrist,"7450 Ne 60Th St. High Springs, Fl 32643",29.82949,-82.68394
-144,Bahia Honda State Park,Open-Fee Required,490.5920261,Monroe,"36850 Overseas Hwy Big Pine Key, Fl 33043",24.65947,-81.27507
-145,Grayton Beach State Park,Open-Fee Required,2186.596391,Walton,"357 Main Park Rd Santa Rosa Beach, Fl 32459",30.3258,-86.15467
-146,Sebastian Inlet State Park,Open-Fee Required,972.4038509,"Brevard, Indian River","9700 S A1A Melbourne Bch, Fl 32951",27.86319,-80.45152
-147,Natural Bridge Battlefield Historic State Park,Open-No Fee Required,2121.369167,Leon,"7502 Natural Bridge Rd. Tallahassee, 32309",30.28147,-84.15041
-148,Three Rivers State Park,Open-Fee Required,668.0245565,Jackson,"7908 Three Rivers Park Rd Sneads, Fl 32460",30.739,-84.93589
-149,Estero Bay Preserve State Park,Open-No Fee Required,11382.81469,Lee,"3800 Corkscrew Road Estero, Fl 33928",26.433,-81.81537
-150,Marjorie Harris Carr Cross Florida Greenways State Recreation and Conservation Area,Open-No Fee Required,71114.66526,"Citrus, Levy, Marion, Putnam","8282 S.E. Highway 314 Ocala, Fl 34470",29.18481,-82.01655
-151,Honeymoon Island State Park,Open-Fee Required,2824.515179,Pinellas,"#1 Causeway Blvd Dunedin, Fl 34698",28.05965,-82.81215
-152,Caladesi Island State Park,Open-Fee Required,2420.038721,Pinellas,"Caladesi Island State Park Dunedin, Fl 34698",28.06101,-82.8251
-153,San Felasco Hammock Preserve State Park,Open-Fee Required,7353.39903,Alachua,"12720 Nw 109 Lane Alachua, Fl 32615",29.7511,-82.47839
-154,Skyway Fishing Pier State Park,Open-Fee Required,16.46060391,"Pinellas, Hillsborough, Manatee","Skyway Fishing Pier State Park Interstate 275, St. Petersburg, Fl",27.87867,-82.65894
-155,Palatka-to-St. Augustine State Trail,Open-No Fee Required,56.19451005,St. Johns,"Palatka-To-St. Augustine State Trail State Rd. 207 Armstrong, Fl 32033",29.87833,-81.32865
-156,O'Leno State Park,Open-Fee Required,2372.405195,"Alachua, Columbia","410 Se O'Leno Park Road High Springs, Fl 32643",29.91524,-82.58105
-157,Lake Talquin State Park,Open-No Fee Required,425.7645848,Leon,"14850 Jack Vause Landing Rd. Tallahassee, Fl 32310",30.43656,-84.53648
-158,Anderson's Landing (Managed by Manatee Springs State Park),Open-Fee Required,2.67846043,Dixie,"23103 Se 349 Hwy, Suwannee, Fl 32692",29.95674,-82.92156
-159,Marjorie Kinnan Rawlings Historic State Park,Open-Fee Required,124.3105564,Alachua,"18700 South Cr 325 Hawthorne, Fl 32640",29.48146,-82.16147
-160,Savannas Preserve State Park,Open-Fee Required,6994.304017,"St. Lucie, Martin","9551 Gumbo Limbo Ln Jensen Beach, Fl 34957",27.29035,-80.25325
-161,Topsail Hill Preserve State Park,Open-Fee Required,1638.50141,Walton,"7525 W Scenic Hwy 30A Santa Rosa  Beach, Fl 32459",30.36932,-86.27148
-163,Waccasassa Bay Preserve State Park,Open-No Fee Required,34387.61453,Levy,"Waccasassa Bay Preserve State Park, Inglis, Fl",30.36999,-86.27299
-164,Amelia Island State Park,Open-Fee Required,235.6824633,Nassau,"9549 1St Coast Hwy, Fernandina Beach, Fl 32034",30.55716,-81.44995
-165,Little Talbot Island State Park,Open-Fee Required,1531.382944,Duval,"12157 Heckscher Dr Jacksonville, Fl 32226",30.46024,-81.42245
-166,Big Talbot Island State Park,Open-Fee Required,1679.82453,Duval,"15500 Bucaneer Trail, Jacksonville, Fl 32226",29.4907,-81.54727
-167,Delnor-Wiggins Pass State Park,Open-Fee Required,199.7325465,Collier,"11135 Gulf Shore Dr Naples, Fl 34108",26.27223,-81.82597
-168,Egmont Key State Park,Open-No Fee Required,294.3100917,Hillsborough,"Egmont Key State Park St. Petersburg, Fl 33715",27.61348,-82.73836
-169,Weeki Wachee Springs State Park,Open-Fee Required,927.2823604,Hernando,"6131 Commercial Way Spring Hill, Fl 34606",28.4944,-82.59586
-170,Rainbow Springs State Park,Open-Fee Required,1476.989045,Marion,"19158 Sw 81St Place Rd Dunnellon, Fl 34432",29.10339,-82.43913
-171,Dagny Johnson Key Largo Hammock Botanical State Park,Open-Fee Required,2592.887771,Monroe,"County Rd. 905 & Mile Marker 106 Key Largo, Fl 33037",25.17272,-80.37278
-172,John Pennekamp Coral Reef State Park,Open-Fee Required,63914.76871,Monroe,"Key Largo, Fl 33037 Po Box 487",25.14436,-80.39684
-173,Blackwater Heritage State Trail,Open-No Fee Required,308.449028,Santa Rosa,"5533 Alabama Street Milton, Fl 32564",30.63584,-87.0397
-174,Silver Springs State Park,Open-Fee Required,4739.581218,Marion,"1425 Ne 58Th Ave Ocala, Fl 34470",29.20105,-82.05031
-175,Price's Scrub State Park,Open-No Fee Required,962.3108691,Marion,"17930 Nw Hwy 320, Micanopy, Fl 32667",29.45775,-82.31883
-176,St. Andrews State Park,Open-Fee Required,1167.082236,Bay,"4607 State Park Lane Panama City, Fl 32408",30.21505,-85.59139
-177,Cayo Costa State Park,Open-Fee Required,2644.123442,Lee,"Cayo Costa State Park Captiva, Fl 33924",26.686,-82.24582
+SITE_NAME,ADDRESS,Lat,Long
+Tomoka State Park,"2099 N Beach St Ormond Beach, Fl 32174",29.328184,-81.07734
+Lake Kissimmee State Park,"14248 Camp Mack Rd Lake Wales, Fl 33898",27.972112,-81.379784
+Lake Manatee State Park,"20007 Sr 64 Bradenton, Fl 34202",27.475207,-82.344167
+Ochlockonee River State Park,"429 State Park Rd Sopchoppy, Fl 32358 Po Box 5",29.999161, -84.484893
+Olustee Battlefield Historic State Park,"5815 Battlefield Trail Rd. Olustee, Fl 32087",30.658345,-85.342586
+St. Lucie Inlet Preserve State Park,"St Lucie Inlet Preserve State Park Martin County, Fl",29.795592,-81.858974
+The Barnacle Historic State Park,"3485 Main Hwy Coconut Grove, Fl 33133",25.731554,-80.243005
+Lake Jackson Mounds Archaeological State Park,"3600 Indian Mounds Rd. Tallahassee, Fl 32303",30.501457, -84.313858
+Koreshan State Park,"3800 Corkscrew Road Estero, Fl 33928",26.431186,-81.814201
+Hillsborough River State Park,"15402 Us 301 N Thonotosassa, Fl 33592",28.141049,-82.226658
+John Gorrie Museum State Park,"46 5Th Street Apalachicola, Fl 32320",29.724972,-84.9841
+Blue Spring State Park,"2100 W French Ave Orange City, Fl 32763",28.952332,-81.334823
+Stephen Foster Folk Culture Center State Park,"11016 Lillian Saunders Drive White Springs, Fl 32096 Po Box G",30.331735, -82.76548
+Rock Springs Run State Reserve,"Rock Springs Run State Reserve County Rd. 433 Sorento, Fl",30.353662,-82.780363
+Fakahatchee Strand Preserve State Park,"137 Coastline Dr Copeland, Fl 34137 Po Box 548",25.951129,-81.360049
+Palatka-to-Lake Butler State Trail,"6065 Twin Lakes Rd. Keystone Heights, Fl 32656",29.773438,-81.998565
+Windley Key Fossil Reef Geological State Park,"84900 Overseas Highway Islamorada, Fl 33036 Po Box 1052",24.948981,-80.59653
+Bulow Creek State Park,"3335 Old Dixie Hwy Ormond Beach, Fl 32174",29.387807,-81.132354
+Fanning Springs State Park,"11650 Nw 115Th Street Chiefland, Fl 32034",29.496195,-82.964207
+Werner-Boyce Salt Springs State Park,"9120 Old Post Road Port Richey, Fl 34668",28.290002,-82.724458
+Troy Spring State Park,"674 Troy Spring Rd. Branford, Fl 32008",30.004856,-82.998853
+Three Servicemen Memorial (Managed by Orman House),"177 5Th St  Apalachicola, Fl 32320",29.72972,-84.9902
+Orman House Historic State Park,"177 5Th St  Apalachicola, Fl 32320",29.729719,-84.990196
+Withlacoochee State Trail,"2246 W Magenta Dr. Citurs Springs, Fl 34434",29.02694,-82.47062
+Dunns Creek State Park,"Dunns Creek State Park Florida 15 Pomona Park, Fl",29.49737,-81.59129
+Long Key State Park,"67400 Overseas Hwy  Long Key, Fl 33001 Po Box 776",24.82345,-80.81694
+T.H. Stone Memorial St. Joseph Peninsula State Park,"8899 Cape San Blas Rd Port St Joe, Fl 32456",29.7559,-85.39543
+Colt Creek State Park,"16000 State Road 471 Lakeland, Fl 33809",28.28164,-82.05547
+Eden Gardens State Park,"181 Eden Gardens Rd. Santa Rosa Beach, Fl 32450",30.37147,-86.11818
+Oscar Scherer State Park,"1843 S Tamiami Tr Osprey, Fl 34229",27.18228,-82.4836
+Deer Lake State Park,"6350 East County Rd. 30-A Santa Rosa Beach, Fl 32459",30.30576,-86.07408
+Torreya State Park,"2576 Nw Torreya Pk Road Bristol, Fl 32321",30.57162,-84.94584
+Collier-Seminole State Park,"20200 E Tamiami Trail Naples, Fl 34114",25.99274,-81.59049
+North Peninsula State Park,"40 Highbridge Rd. Ormond By The Sea, Fl 32176",29.33212,-81.06284
+Ichetucknee Springs State Park,"12087 Sw Us Hwy 27 Ft White, Fl 32038",29.95149,-82.77828
+San Pedro Underwater Archaeological Preserve State Park,"77200 Overseas Hwy Islamorada, Fl 33001",24.88028,-80.69456
+General James A. Van Fleet State Trail,"7683 Berkley Road Polk City, Fl 33968",28.18002,-81.82727
+Cedar Key Museum State Park,"12231 Sw 166 Ct Cedar Key, Fl 32625",29.15056,-83.04802
+De Leon Springs State Park,"601 Ponce De Leon Blvd De Leon Springs, Fl 32130",29.13076,-81.3595
+Haw Creek Preserve State Park,"Haw Creek Preserve State Park Seville, Fl",29.26519,-81.33464
+Terra Ceia Preserve State Park,"130 Terra Ceia Rd. Terra Ceia, Fl 34606",27.57947,-82.57211
+Mike Roess Gold Head Branch State Park,"6239 Sr 21 Keystone Heights, Fl 32656",29.85033,-81.95911
+Curry Hammock State Park,"56200 Overseas Hwy Marathon, Fl 33050",24.74197,-80.9817
+Seabranch Preserve State Park,"6093 Se Dixie Highway Stuart, Fl 34997",27.13049,-80.16972
+Fort Mose Historic State Park,"15 Fort Mose Trail St. Augustine, Fl 32084",29.92961,-81.32509
+Dr. Von D. Mizell-Eula Johnson State Park,"6503 N Ocean Dr Dania Bch, Fl 33004",26.05515,-80.11404
+Camp Helen State Park,"23937 Panama City Beach Parkway Panama City Beach, Fl 32413",30.27327,-85.99227
+St. Sebastian River Preserve State Park,"1000 Buffer Preserve Drive Fellsmere, Fl 32948",27.83092,-80.60128
+Nature Coast State Trail,"18020 Nw Hwy 19 Fanning Springs, Florida 32693",29.5911,-82.93552
+Cockroach Bay Preserve State Park,"End Of Cockroach Bay Rd. Ruskin, Fl 33570",27.6874,-82.49516
+Ybor City Museum State Park,"1818 E. 9Th Avenue Tampa, Fl 33605",27.96191,-82.43832
+Lower Wekiva River Preserve State Park,"8300 W. State Rd. 46 Sanford, Fl 32712",28.81499,-81.40517
+Lake Griffin State Park,"3089 Us Highway 441/27 Fruitland Park, Fl 34731",28.85706,-81.90048
+Manatee Springs State Park,"11650 Nw 115 St Chiefland, Fl 32626",29.48783,-82.97703
+Mound Key Archaeological State Park,"Mound Key Archaeological State Park Estero, Fl 33928",33.0069,-87.6369
+Myakka River State Park,"13208 State Rd 72 Sarasota, Fl 34241",27.2408,-82.31592
+Henderson Beach State Park,"17000 Emerald Coast Pkwy Destin, Fl 32541",30.38489,-86.44238
+Dudley Farm Historic State Park,"18730 W. Newberry Rd. Newberry, Fl 32669",29.65784,-82.5395
+Lignumvitae Key Botanical State Park,"77200 Overseas Hwy Islamorada, Fl 33001",24.88028,-80.69456
+Gasparilla Island State Park,"880 Belcher Rd Boca Grande, Fl 33921 Po Box 1150",26.71954,-82.26011
+Don Pedro Island State Park,"8450 Placida Rd. Cape Haze, Fl 33946",26.85588,-82.30268
+Edward Ball Wakulla Springs State Park,"465 Wakulla Park Dr Wakulla Springs, Fl 32327",30.22869,-84.30266
+Wes Skiles Peacock Springs State Park,"18181 185Th Rd. Live Oak, Fl 32060",30.11113,-83.12551
+Ellie Schiller Homosassa Springs Wildlife State Park,"4150 S Suncoast Blvd Homosassa, Fl 34446",28.80074,-82.57812
+Fort George Island Cultural State Park,"11241 Fort George Rd. Jacksonville, Fl 32226",30.43527,-81.43038
+Lake June-in-Winter Scrub Preserve State Park,"Daffodil Rd. Lake Placid, Fl 33852",27.30466,-81.34358
+Okeechobee Battlefield Historic State Park,"3500 Se 38Th Ave. Okeechobee, Fl 34974",27.21217,-80.78906
+Kissimmee Prairie Preserve State Park,"33104 Nw 192Nd Ave Okeechobee, Fl 34972",27.54359,-81.0227
+Letchworth-Love Mounds Archaeological State Park,"4500 Sunray Rd. South Tallahassee, Fl 32309",30.52185,-83.99065
+Hugh Taylor Birch State Park,"3109 E Sunrise Blvd Ft Lauderdale, Fl 33304",26.14086,-80.10318
+Lafayette Blue Springs State Park,"799 Nw Blue Spring Rd May, Fl 32066",30.10794,-83.23645
+Tarkiln Bayou Preserve State Park,"2401 Bauer Rd. Pensacola, Fl 32507",30.37312,-87.4023
+Ravine Gardens State Park,"1600 Twigg St. Palatka, Fl 32177",30.37312,-87.4023
+Yellow River Marsh Preserve State Park,"7720 Deaton Bridge Rd Holt, Fl 32564",30.7097,-86.87586
+Blackwater River State Park,"7720 Deaton Bridge Rd Holt, Fl 32564",30.7097,-86.87586
+Bulow Plantation Ruins Historic State Park,"3501 Old Kings Rd. Flagler Beach, Fl 32136",29.43021,-81.15348
+Indian Key Historic State Park,"Indian Key, Fl",27.86316,-82.84096
+Constitution Convention Museum State Park,"200 Allen Memorial Way Port St Joe, Fl 32456",29.7935,-85.29679
+Oleta River State Park,"3400 Ne 163Rd St N Miami, Fl 33160",25.92852,-80.1349
+Pumpkin Hill Creek Preserve State Park,"13802 Pumpkin Hill Road Jacksonville, Fl 32226",30.48065,-81.48787
+Crystal River Archaeological State Park,"3400 N Museum Pt Crystal River, Fl 34428",28.90936,-82.62795
+Dade Battlefield Historic State Park,"7200 Cr 603 - S Battlefield Drive Bushnell, Fl 33513",28.65306,-82.12727
+Falling Waters State Park,"1130 State Park Rd Chipley, Fl 32428",30.73087,-85.52882
+Faver-Dykes State Park,"1000 Faver-Dykes Rd. St. Augustine, Fl 32181",29.66914,-81.26672
+Fernandina Plaza Historic State Park,"Estrada Street Fernandina Beach, Fl 32034",30.68897,-81.45617
+Gamble Rogers Memorial State Recreation Area at Flagler Beach,"3100 South A1A Flagler Beach, Fl 32136",29.44157,-81.10967
+Forest Capital Museum State Park,"204 Forest Park Dr Perry, Fl 32348",30.07997,-83.56815
+Ponce de Leon Springs State Park,"2860 Ponce De Leon Springs Rd Ponce De Leon, Fl 32455",30.72288,-85.93033
+Fort Cooper State Park,"3100  S Old Floral City Rd Inverness, Fl 34450",28.81669,-82.30279
+Stump Pass Beach State Park,"South End Of Manasota Key 900 Gulf Blvd. Englewood, Fl 34233",26.90639,-82.34978
+Indian River Lagoon Preserve State Park,"Old Florida Trail Melbourne Beach, Fl 32951",27.93688,-80.49816
+Judah P. Benjamin Confederate Memorial at Gamble Plantation Historic State Park,"3708 Patten Avenue Ellenton, Fl 34222",27.5223,-82.52572
+Jonathan Dickinson State Park,"16450 Se Federal Hwy Hobe Sound, Fl 33455",26.99561,-80.14494
+Devil's Millhopper Geological State Park,"4732 Millhopper Rd. Gainesville, Fl 32653",29.70796,-82.39639
+Highlands Hammock State Park,"5931 Hammock Rd Sebring, Fl 33872",27.47191,-81.53934
+Little Manatee River State Park,"215 Lightfoot Rd Wimauma, Fl 33598",27.66311,-82.37375
+Hontoon Island State Park,"2309 River Ridge Rd Deland, Fl 32720",28.97418,-81.35708
+River Rise Preserve State Park,"373 Southwest Us Hwy 27 High Springs, Fl 32643",29.95638,-82.92561
+Paynes Creek Historic State Park,"888 Lake Branch Rd Bowling Green, Fl 33834",27.62339,-81.80906
+Big Lagoon State Park,"12301 Gulf Beach Hwy Pensacola, Fl 32507",30.31078,-87.41671
+Avalon State Park,"5400 A1A Fort Pierce, Fl 34949",26.20264,-80.09435
+Allen David Broussard Catfish Creek Preserve State Park,"4335 Firetower Rd. Haines City, Fl 33844",27.98404,-81.49691
+Bald Point State Park,"146 Box Cut Rd Alligator Point, Fl 32346",29.90876,-84.34321
+Lovers Key State Park,"8700 Estero Blvd Ft Myers Beach, Fl 33931",26.43695,-81.92165
+Fort Pierce Inlet State Park,"905 Shorewinds Dr Ft Pierce, Fl 34949",27.48536,-80.30348
+Madison Blue Spring State Park,"8300 Ne State Rd. 6 Lee, Fl 32059",30.47944,-83.24591
+Wingate Creek State Park,"20007 Sr 64 Bradenton, Fl 34202",27.477,-82.34721
+South Fork State Park,"20007 Sr 64 Bradenton, Fl 34202",27.477,-82.34721
+Atlantic Ridge Preserve State Park,"8120 Se Paulson Ave Stuart, Fl 34997",27.10309,-80.24136
+Perdido Key State Park,"15301 Perdido Key Dr. Pensacola, Fl 32507",30.29289,-87.46383
+Paynes Prairie Preserve State Park,"100 Savannah Blvd Micanopy, Fl 32667",29.51983,-82.29496
+Gainesville-to-Hawthorne State Trail,"3400 Se 15 Street Gainesville,Fl 32641",29.62085,-82.30647
+Wekiwa Springs State Park,"1800 Wekiwa Cir Apopka, Fl 32712",28.71127,-81.46227
+John D. MacArthur Beach State Park,"10900 Jack Nichlaus Drive North Palm Beach, Fl 33408",26.82641,-80.04343
+Suwannee River Wilderness Trail,"4298 Nw County Road 292 Mayo, Fl 32066",30.15297,-83.24481
+Charlotte Harbor Preserve State Park,"12301 Burnt Store Rd. Punta Gorda, Fl 33955",26.8513,-82.02213
+Econfina River State Park,"4741 Econfina River Rd. Lamont, Fl 32336",30.05999,-83.90644
+Fort Clinch State Park,"2601 Atlantic Ave Fernandina Beach, Fl 32034",30.66807,-81.43521
+Lake Louisa State Park,"7305 Us Hwy 27 Clermont, Fl 34714",28.45489,-81.72709
+Suwannee River State Park,"3631 201St Path Live Oak, Fl 32060",30.38068,-83.16608
+Yulee Sugar Mill Ruins Historic State Park,"10465 W Yulee Dr. Homosassa, Fl 34448",28.78483,-82.6075
+Yellow Bluff Fort Historic State Park,"9400 New Berlin Rd. Jacksonville, Fl 32226",30.40132,-81.56046
+Washington Oaks Gardens State Park,"6400 N Oceanshore Blvd Palm Coast, Fl 32137",29.63312,-81.20748
+San Marcos de Apalache Historic State Park,"148 Old Fort Rd. St. Marks, Fl 32355",30.15202,-84.21078
+Dr. Julian G. Bruce St. George Island State Park,"1900 E Gulf Beach Dr St George Island, Fl 32328",29.7494,-84.71024
+Crystal River Preserve State Park,"3266 N Sailboat Avenue Crystal River, Fl 34428",28.90944,-82.63595
+Ichetucknee Trace,"12087 Sw Us Hwy 27 Ft White, Fl 32038",29.95149,-82.77828
+St. Marks River Preserve State Park,"11950 Tram Rd. Tallahassee, Fl 32311",30.37277,-84.08259
+Fred Gannon Rocky Bayou State Park,"4281 State Rd. 20 Niceville, Fl 32578",30.49793,-86.43175
+George Crady Bridge Fishing Pier State Park,"9549 1St Coast Hwy, Fernandina Beach, Fl 32034",30.55716,-81.44995
+Bill Baggs Cape Florida State Park,"1200 S Crandon Blvd Key Biscayne, Fl 33149",25.67534,-80.16145
+Madira Bickel Mound State Archaeological Site,"955 Bayshore Dr. Terra Ceia, Fl 34250",27.56499,-82.59317
+Tallahassee-St. Marks Historic Railroad State Trail,"1358 Old Woodville Rd. Crawfordville, Fl 32327",30.24493,-84.23476
+Alfred B. Maclay Gardens State Park,"3540 Thomasville Rd Tallahassee, Fl 32309",30.51414,-84.24749
+Anastasia State Park,"300 Anastasia Park Rd. St Augustine, Fl 32080",29.87727,-81.28026
+Big Shoals State Park,"11330 Southeast County Rd 135 White Springs, Fl 32096",30.3453,-82.73516
+Anclote Key Preserve State Park,"Anclote Key Tarpon Springs, Fl 34689",28.19029,-82.75271
+Addison Blockhouse Historic State Park,"2099 N Beach Street Ormond Beach, Fl 32174",29.341021,-81.084793
+Fort Zachary Taylor Historic State Park,"601 Howard England Way Key West, Fl 33040",24.54684,-81.80824
+Florida Keys Overseas Heritage Trail,"3 La Croix Court Key Largo, Fl 33037",25.19447,-80.3526
+Alafia River State Park,"14326 South County Rd 39 Lithia, Fl 33547",27.784769,-82.14135
+Florida Caverns State Park,"3345 Caverns Rd Marianna, Fl 32446",30.80837,-85.21238
+Ruth B. Kirby Gilchrist Blue Springs State Park,"7450 Ne 60Th St. High Springs, Fl 32643",29.82949,-82.68394
+Bahia Honda State Park,"36850 Overseas Hwy Big Pine Key, Fl 33043",24.65947,-81.27507
+Grayton Beach State Park,"357 Main Park Rd Santa Rosa Beach, Fl 32459",30.3258,-86.15467
+Sebastian Inlet State Park,"9700 S A1A Melbourne Bch, Fl 32951",27.86319,-80.45152
+Natural Bridge Battlefield Historic State Park,"7502 Natural Bridge Rd. Tallahassee, 32309",30.28147,-84.15041
+Three Rivers State Park,"7908 Three Rivers Park Rd Sneads, Fl 32460",30.739,-84.93589
+Estero Bay Preserve State Park,"3800 Corkscrew Road Estero, Fl 33928",26.433,-81.81537
+Marjorie Harris Carr Cross Florida Greenways State Recreation and Conservation Area,"8282 S.E. Highway 314 Ocala, Fl 34470",29.18481,-82.01655
+Honeymoon Island State Park,"#1 Causeway Blvd Dunedin, Fl 34698",28.05965,-82.81215
+Caladesi Island State Park,"Caladesi Island State Park Dunedin, Fl 34698",28.06101,-82.8251
+San Felasco Hammock Preserve State Park,"12720 Nw 109 Lane Alachua, Fl 32615",29.7511,-82.47839
+Skyway Fishing Pier State Park,"Skyway Fishing Pier State Park Interstate 275, St. Petersburg, Fl",27.87867,-82.65894
+Palatka-to-St. Augustine State Trail,"Palatka-To-St. Augustine State Trail State Rd. 207 Armstrong, Fl 32033",29.87833,-81.32865
+O'Leno State Park,"410 Se O'Leno Park Road High Springs, Fl 32643",29.91524,-82.58105
+Lake Talquin State Park,"14850 Jack Vause Landing Rd. Tallahassee, Fl 32310",30.43656,-84.53648
+Anderson's Landing (Managed by Manatee Springs State Park),"23103 Se 349 Hwy, Suwannee, Fl 32692",29.95674,-82.92156
+Marjorie Kinnan Rawlings Historic State Park,"18700 South Cr 325 Hawthorne, Fl 32640",29.48146,-82.16147
+Savannas Preserve State Park,"9551 Gumbo Limbo Ln Jensen Beach, Fl 34957",27.29035,-80.25325
+Topsail Hill Preserve State Park,"7525 W Scenic Hwy 30A Santa Rosa  Beach, Fl 32459",30.36932,-86.27148
+Waccasassa Bay Preserve State Park,"Waccasassa Bay Preserve State Park, Inglis, Fl",30.36999,-86.27299
+Amelia Island State Park,"9549 1St Coast Hwy, Fernandina Beach, Fl 32034",30.55716,-81.44995
+Little Talbot Island State Park,"12157 Heckscher Dr Jacksonville, Fl 32226",30.46024,-81.42245
+Big Talbot Island State Park,"15500 Bucaneer Trail, Jacksonville, Fl 32226",29.4907,-81.54727
+Delnor-Wiggins Pass State Park,"11135 Gulf Shore Dr Naples, Fl 34108",26.27223,-81.82597
+Egmont Key State Park,"Egmont Key State Park St. Petersburg, Fl 33715",27.61348,-82.73836
+Weeki Wachee Springs State Park,"6131 Commercial Way Spring Hill, Fl 34606",28.4944,-82.59586
+Rainbow Springs State Park,"19158 Sw 81St Place Rd Dunnellon, Fl 34432",29.10339,-82.43913
+Dagny Johnson Key Largo Hammock Botanical State Park,"County Rd. 905 & Mile Marker 106 Key Largo, Fl 33037",25.17272,-80.37278
+John Pennekamp Coral Reef State Park,"Key Largo, Fl 33037 Po Box 487",25.14436,-80.39684
+Blackwater Heritage State Trail,"5533 Alabama Street Milton, Fl 32564",30.63584,-87.0397
+Silver Springs State Park,"1425 Ne 58Th Ave Ocala, Fl 34470",29.20105,-82.05031
+Price's Scrub State Park,"17930 Nw Hwy 320, Micanopy, Fl 32667",29.45775,-82.31883
+St. Andrews State Park,"4607 State Park Lane Panama City, Fl 32408",30.21505,-85.59139
+Cayo Costa State Park,"Cayo Costa State Park Captiva, Fl 33924",26.686,-82.24582
