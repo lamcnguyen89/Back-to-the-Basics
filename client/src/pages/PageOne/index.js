@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Message } from "semantic-ui-react";
-import MapContainer from '../../components/GoogleMap';
+import MapContainer from '../../components/GoogleMapMultiples';
 
 
 export const PageOne = () => {

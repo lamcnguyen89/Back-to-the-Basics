@@ -14,10 +14,10 @@ const GMap = () => {
 
   // list of the marker object along with icon
   const markerList = [
-    { lat: 29.328184, lng: -81.07734, icon: iconList.icon1, title: "Bone Valley ATV Park", address:  },
-    { lat: 27.972112 , lng: -81.379784, icon: iconList.icon2, title: "Lake Kissimmee State Park", address:  },
-    { lat: 27.475207, lng: -82.344167, icon: iconList.icon3, title: "Lake Manatee State Park", address: },
-    { lat: 29.999161, lng:  -84.484893, icon: iconList.icon4, title: "Ochlockonee River State Park", address: }
+    { lat: 29.328184, lng: -81.07734, icon: iconList.icon1, title: "Bone Valley ATV Park"},
+    { lat: 27.972112 , lng: -81.379784, icon: iconList.icon2, title: "Lake Kissimmee State Park" },
+    { lat: 27.475207, lng: -82.344167, icon: iconList.icon3, title: "Lake Manatee State Park"},
+    { lat: 29.999161, lng:  -84.484893, icon: iconList.icon4, title: "Ochlockonee River State Park"}
   ]
 
 
