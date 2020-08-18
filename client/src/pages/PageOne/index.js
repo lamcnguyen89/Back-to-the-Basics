@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, Message } from "semantic-ui-react";
+import MapContainer from '../../components/GoogleMap';
 
 
 export const PageOne = () => {
@@ -9,6 +10,7 @@ export const PageOne = () => {
                 <Header size="huge"> Page One </Header>
                 <p>This is a Protected Route</p>
             </Message>
+            <MapContainer />
         </>
     )
 }

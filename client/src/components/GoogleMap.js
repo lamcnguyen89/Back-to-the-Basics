@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Map, GoogleAPIWrapper, InfoWindow, Marker } from 'google-maps-react';
+import { GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import CurrentLocation from './CurrentLocation';
 
-
 // https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
+
+// API key: AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8
 
 class MapContainer extends Component {
     state = {
@@ -34,36 +35,22 @@ class MapContainer extends Component {
             <CurrentLocation
                 centerAroundCurrentLocation
                 google={this.props.google}
-            >      
-                <Map
-                    // Center is the latitude and longitude that you want the map to start off on. In our case, we start of in Florida.
-                    google={this.props.google}
-                    zoom={14}
-                    style={mapStyles}
-                    initialCenter={{
-                        lat: 27.6648,
-                        lng: -81.5158
-                    }}
-                />
-
-                <Marker 
-                    onclick={this.onMarkerClick}
-                    name= {'Cassadaga'}
-                />
-                <InfoWindow 
+            >
+                <Marker onClick={this.onMarkerClick} name={'current location'} />
+                <InfoWindow
                     marker={this.state.activeMarker}
-                    visible={this.state.showInfoWindow}
+                    visible={this.state.showingInfoWindow}
                     onClose={this.onClose}
                 >
                     <div>
                         <h4>{this.state.selectedPlace.name}</h4>
                     </div>
                 </InfoWindow>
-            </CurrentLocation> 
+            </CurrentLocation>
         );
     }
 }
  
 export default GoogleApiWrapper({
-    apiKey: 'YOUR_GOOGLE_API_KEY_GOES_HERE'
+    apiKey: "AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8"
   })(MapContainer);

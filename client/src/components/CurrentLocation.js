@@ -13,7 +13,7 @@ export class CurrentLocation extends React.Component {
     constructor(props) {
         // Next we need to make our component stateful
         super(props);
-        const { lat, lang } = this.props.intialCenter;
+        const { lat, lng } = this.props.initialCenter;
         this.state = {
             currentLocation: {
                 lat: lat,
@@ -25,7 +25,7 @@ export class CurrentLocation extends React.Component {
     // This section of the code is to update our CurrentLocation component to cater for the instance when the Map is first loaded.
     // We can't solely depend on the Google Maps API always being available, so we need to check if it's loaded. 
     // Also this code will check if the browser's current location is provided and recenter the map to it.
-    componentDidUpdate(prevProp, prevState) {
+    componentDidUpdate(prevProps, prevState) {
         if (prevProps.google !== this.props.google) {
             this.loadMap();
         }
@@ -80,7 +80,7 @@ export class CurrentLocation extends React.Component {
 
            let { zoom } = this.props;
            const { lat, lng } = this.state.currentLocation;
-           const center = new maps.LatLng(lat, lang);
+           const center = new maps.LatLng(lat, lng);
            const mapConfig = Object.assign(
             {},
             {
@@ -122,11 +122,7 @@ export class CurrentLocation extends React.Component {
            {this.renderChildren()}
          </div>
        );
-     }
-
-
-    
-    
+     }  
 
 }
 export default CurrentLocation;
