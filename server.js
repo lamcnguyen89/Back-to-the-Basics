@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
 require("dotenv").config();
-const db = require("./models");
 const config = require("./config");
 const routes = require("./routes");
 
@@ -29,15 +28,15 @@ app.use(routes);
 const PORT = process.env.PORT || 3001;
 
 // connect to database and start server
-db.sequelize.sync().then(() => {
-    app.listen(PORT, () => {
-      console.log(`app listening on: http://localhost:${PORT}`);
-    });
-  });
+// db.sequelize.sync().then(() => {
+//     app.listen(PORT, () => {
+//       console.log(`app listening on: http://localhost:${PORT}`);
+//     });
+//   });
   
 
 
-// start server
-// app.listen(PORT, () => {
-//     console.log(`App listening on port: ${PORT}`);
-// })
+//start server
+app.listen(PORT, () => {
+    console.log(`App listening on port: ${PORT}`);
+})
