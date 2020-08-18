@@ -3,7 +3,7 @@ import { GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import CurrentLocation from './CurrentLocation';
 
 // https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
-// Video by Traversy Media: https://www.youtube.com/watch?v=Zxf1mnP5zcw
+
 // API key: AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8
 
 class MapContainer extends Component {
@@ -52,5 +52,5 @@ class MapContainer extends Component {
 }
  
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8'
+    apiKey: "AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8"
   })(MapContainer);
