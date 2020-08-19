@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const weed = require("../map_models/Weed.js")
+const weed = require("../models/Weed.js")
 
 // Routes for dispensaries:
 

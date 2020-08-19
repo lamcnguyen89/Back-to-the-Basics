@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const StateParksSchema = new Schema({
+// This code creates a collection of awesome gun stores to stock up on weapons and ammunition for hunting, offensive actions and recreation in Florida.
+
+const GunStoresSchema = new Schema({
   siteName: {
     type: String,
     require: true
@@ -20,4 +22,4 @@ const StateParksSchema = new Schema({
   }
 });
 
-module.exports = StateParks = mongoose.model("stateParks", StateParksSchema);
+module.exports = GunStores = mongoose.model("gunstores", GunStoresSchema);

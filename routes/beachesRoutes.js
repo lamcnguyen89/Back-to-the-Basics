@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const beaches = require("../map_models/Beaches.js");
+const beaches = require("../models/Beaches.js");
 
 // Routes for beaches:
 

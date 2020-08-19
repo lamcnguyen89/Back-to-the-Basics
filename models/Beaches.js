@@ -1,16 +1,14 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const WeedSchema = new Schema({
-  city: {
+// This code creates a collection of awesome beach destinations in Florida.
+
+const BeachesSchema = new Schema({
+  siteName: {
     type: String,
     require: true
   },
   address: {
-    type: String,
-    require: true
-  },
-  phone: {
     type: String,
     require: true
   },
@@ -24,4 +22,5 @@ const WeedSchema = new Schema({
   }
 });
 
-module.exports = Weed = mongoose.model("weed", WeedSchema);
+module.exports = Beaches = mongoose.model("beaches", BeachesSchema);
+

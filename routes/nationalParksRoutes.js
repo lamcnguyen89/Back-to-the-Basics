@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const nationalParks = require("../map_models/NationalParks.js");
+const nationalParks = require("../models/NationalParks.js");
 
 // Routes for National Parks:
 

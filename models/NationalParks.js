@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// This code creates a collection of awesome National Parks that can take a lifetime to explore in Florida.
+
 const NationalParksSchema = new Schema({
   siteName: {
     type: String,
@@ -20,5 +22,5 @@ const NationalParksSchema = new Schema({
   }
 });
 
-module.exports = NationalParks = mongoose.model("nationalParks", NationalParksSchema);
+module.exports = NationalParks = mongoose.model("nationalparks", NationalParksSchema);
 
