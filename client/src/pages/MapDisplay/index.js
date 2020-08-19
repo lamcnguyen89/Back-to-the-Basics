@@ -3,7 +3,7 @@ import { Header, Message } from "semantic-ui-react";
 import MapContainer from '../../components/GoogleMapMultiples';
 
 
-export const PageOne = () => {
+export const displaymap = () => {
     return (
         <>
             <Message className="message-container" size="huge" secondary="true">
@@ -16,4 +16,4 @@ export const PageOne = () => {
     )
 }
 
-export default PageOne;
+export default displaymap;
