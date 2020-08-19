@@ -3,9 +3,11 @@ const path = require("path");
 const mongoose = require("mongoose");
 require("dotenv").config();
 const config = require("./config");
-const login = require("./routes/index");
-const waypointRoutes = require("./routes/APIWaypoints.js");
-const fs = require('fs');
+const userLogin = require("./routes/index");
+const beachesRoutes = require("./routes/beachesRoutes.js");
+const nationalParksRoutes = require("./routes/nationalParksRoutes.js");
+const stateParksRoutes = require("./routes/stateParksRoutes.js");
+const weedRoutes = require("./routes/weedRoutes.js");
 const app = express();
 
 
@@ -24,8 +26,11 @@ mongoose.connect(config.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: 
     .catch(err => console.log(err));
 
 // Connect to Routes for User Login and then Map Markers.
-app.use(login);
-app.use(waypointRoutes);
+app.use(userLogin);
+app.use(beachesRoutes);
+app.use(nationalParksRoutes);
+app.use(stateParksRoutes);
+app.use(weedRoutes);
 
 // check for "production" enviroment and set port
 const PORT = process.env.PORT || 3001;
