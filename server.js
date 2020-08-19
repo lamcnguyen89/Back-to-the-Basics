@@ -2,11 +2,17 @@ const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
 require("dotenv").config();
-const db = require("./models");
 const config = require("./config");
 const routes = require("./routes");
+const fs = require('fs')
 
 const app = express();
+
+// load map models files in the map_models directory:
+// Instructional Source: https://www.youtube.com/watch?v=5e1NEdfs4is
+fs.readdirSync(__dirname + '/map_models/').forEach(function(filename) {
+  if (~filename.indexOf('.js')) require(__dirname + '/map_models/' + filename)
+})
 
 // middleware to parse data
 app.use(express.urlencoded({ extended: true }))
