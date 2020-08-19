@@ -6,7 +6,7 @@ import { loadUser } from "../actions/authActions";
 import NavBar from "./NavBar";
 import Home from "../pages/Home";
 import UserDashboard from "../pages/UserDashboard";
-import PageOne from "../pages/PageOne";
+import MapDisplay from "../pages/MapDisplay";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import PrivateRoute from "./PrivateRoute";
@@ -29,7 +29,7 @@ export const App = () => {
                     <Route path="/login" component={Login} />
                     <Route path="/register" component={Register} />
                     <PrivateRoute path="/dashboard" component={UserDashboard} />
-                    <PrivateRoute path="/pageone" component={PageOne} />
+                    <PrivateRoute path="/displaymap" component={MapDisplay} />
                     <Route component={NoMatch} />
                 </Switch>
             </Router>
