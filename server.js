@@ -3,16 +3,11 @@ const path = require("path");
 const mongoose = require("mongoose");
 require("dotenv").config();
 const config = require("./config");
-const routes = require("./routes");
-const fs = require('fs')
-
+const login = require("./routes/index");
+const waypointRoutes = require("./routes/APIWaypoints.js");
+const fs = require('fs');
 const app = express();
 
-// load map models files in the map_models directory:
-// Instructional Source: https://www.youtube.com/watch?v=5e1NEdfs4is
-fs.readdirSync(__dirname + '/map_models/').forEach(function(filename) {
-  if (~filename.indexOf('.js')) require(__dirname + '/map_models/' + filename)
-})
 
 // middleware to parse data
 app.use(express.urlencoded({ extended: true }))
@@ -28,8 +23,9 @@ mongoose.connect(config.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: 
     .then(() => console.log(`Mongo DB Succesfully Connected`))
     .catch(err => console.log(err));
 
-// use routes
-app.use(routes);
+// Connect to Routes for User Login and then Map Markers.
+app.use(login);
+app.use(waypointRoutes);
 
 // check for "production" enviroment and set port
 const PORT = process.env.PORT || 3001;
