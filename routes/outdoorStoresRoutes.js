@@ -3,7 +3,7 @@ const outdoorStores = require("../models/OutdoorStores.js");
 
 // Routes for Outdoor Stores:
 
-router.get("/outdoorStores", (req, res) => {
+router.get("/api/outdoorstores", (req, res) => {
     outdoorStores.find({})
         .then(dboutdoorStores => {
             res.json(dboutdoorStores);

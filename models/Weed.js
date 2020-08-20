@@ -4,23 +4,23 @@ const Schema = mongoose.Schema;
 // This code creates a collection of dispenseries located in Florida. How fitting are the outdoors and directly communing with the plant spirits?
 
 const WeedSchema = new Schema({
-  city: {
+  City: {
     type: String,
     require: true
   },
-  address: {
+  Address: {
     type: String,
     require: true
   },
-  phone: {
+  Phone: {
     type: String,
     require: true
   },
-  lat: {
+  Lat: {
     type: String,
     require: true
   },
-  long: {
+  Long: {
     type: String,
     require: true
   }

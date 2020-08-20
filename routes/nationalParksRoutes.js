@@ -3,7 +3,7 @@ const nationalParks = require("../models/NationalParks.js");
 
 // Routes for National Parks:
 
-router.get("/nationalParks", (req, res) => {
+router.get("/api/nationalparks", (req, res) => {
     nationalParks.find({})
         .then(dbnationalParks => {
             res.json(dbnationalParks);
