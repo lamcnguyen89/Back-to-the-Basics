@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const path = require("path");
 const beaches = require("../models/Beaches.js");
 
 // Routes for beaches:
