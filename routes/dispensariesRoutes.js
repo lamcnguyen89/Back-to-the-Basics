@@ -1,10 +1,10 @@
 const router = require("express").Router();
-const weed = require("../models/Weed.js")
+const dispensaries = require("../models/Dispensaries.js")
 
 // Routes for dispensaries:
 
-router.get("/api/weed", (req, res) => {
-    weed.find({})
+router.get("/api/dispensaries", (req, res) => {
+    dispensaries.find({})
         .then(dbweed => {
             res.json(dbweed);
         })

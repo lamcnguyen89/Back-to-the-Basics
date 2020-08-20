@@ -15,6 +15,6 @@ mongoimport --type csv -d backbasicsdb -c outdoorStores --headerline --drop outd
 
 mongoimport --type csv -d backbasicsdb -c stateParks --headerline --drop StateParks.csv;
 
-mongoimport --type csv -d backbasicsdb -c weed --headerline --drop Weed.csv;
+mongoimport --type csv -d backbasicsdb -c dispensaries --headerline --drop Dispensaries.csv;
 
 
