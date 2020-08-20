@@ -3,7 +3,7 @@ const stateParks = require("../models/StateParks.js");
 
 // Routes for state parks:
 
-router.get("/stateParks", (req, res) => {
+router.get("/api/stateParks", (req, res) => {
     stateParks.find({})
         .then(dbstateParks => {
             res.json(dbstateParks);

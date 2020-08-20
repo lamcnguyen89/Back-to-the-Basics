@@ -3,7 +3,7 @@ const organicFarms = require("../models/OrganicFarms.js");
 
 // Routes for Organic Farms:
 
-router.get("/organicfarms", (req, res) => {
+router.get("/api/organicfarms", (req, res) => {
     organicFarms.find({})
         .then(dborganicFarms => {
             res.json(dborganicFarms);
