@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Message } from "semantic-ui-react";
-import MapContainer from '../../components/LoadGMapAPI';
+import MapContainer from '../../components/GMapLoadAPI';
 
 
 export const displaymap = () => {
