@@ -17,7 +17,7 @@ const markerList = [
 ]
 
 
-const GMap = (beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks) => {
+const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) => {
 
 
   const googleMapRef = useRef(null);

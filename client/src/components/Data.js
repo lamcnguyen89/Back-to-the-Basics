@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import MapContainer from './GMapLoadAPI';
 import MapAPI from '../utils/MapAPI';
-import FilterClasses from './FilterClasses';
-import FilterName from './FilterName';
-import InputData from './InputData';
-import MapLegend from './MapLegend';
+// import FilterClasses from './FilterClasses';
+// import FilterName from './FilterName';
+// import InputData from './InputData';
+// import MapLegend from './MapLegend';
 
 
 class Data extends Component {
@@ -23,7 +23,9 @@ class Data extends Component {
     // Mount API Map data and push it to the state:
     componentDidMount() {
         MapAPI.getBeaches()
-            .then(beaches => this.setState({ beaches: beaches }))
+            .then(beaches =>{ 
+                console.log("beaches", beaches);
+                this.setState({ beaches: beaches })})
             .catch(err => console.error(err));
         MapAPI.getDispensaries()
             .then(dispensaries => this.setState({ dispensaries: dispensaries }))
