@@ -4,7 +4,7 @@ const random = require("../models/Random.js");
 // Routes for Random Florida things:
 
 // GET ( "/api/random" ) - Get all random
-router.get("/api/random", (req, res) => {
+router.get("/random", (req, res) => {
     random.find({})
         .then(dbrandom => {
             res.json(dbrandom);
@@ -15,7 +15,7 @@ router.get("/api/random", (req, res) => {
 });
 
 // POST ( "/api/random" ) - Create a new random event
-router.post("/api/random", ({body}, res) => {
+router.post("/random", ({body}, res) => {
     random.create(body)
         .then(dbrandom => {
             res.json(dbrandom);
@@ -26,7 +26,7 @@ router.post("/api/random", ({body}, res) => {
  })
 
  // PUT ( "/api/random/:id" ) - Update a random event
-router.put("/api/random/:id", ({body,params},res) =>{
+router.put("/random/:id", ({body,params},res) =>{
     random.findByIdAndUpdate(
         params.id,
         {$push:{exercises:body} },
@@ -41,7 +41,7 @@ router.put("/api/random/:id", ({body,params},res) =>{
 })
 
 // Delete ( "/api/deleterandom/:id" ) - Delete a random event
-router.delete("/api/deleterandom/:id", ({body}, res) => {
+router.delete("/deleterandom/:id", ({body}, res) => {
     random.findByIdAndDelete(
         params.id,
         {$push:{exercises:body} },

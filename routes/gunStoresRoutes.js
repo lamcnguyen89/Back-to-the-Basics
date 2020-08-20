@@ -3,7 +3,7 @@ const gunStores = require("../models/GunStores.js");
 
 // Routes for Gun Stores:
 
-router.get("/api/gunstores", (req, res) => {
+router.get("/gunstores", (req, res) => {
     gunStores.find({})
         .then(dbgunStores => {
             res.json(dbgunStores);

@@ -1,5 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 
+// // List of Global Variables:
+// let markerList = [];
+
+
+// $.get("api/beaches")
+//   .then((response) => {
+//     for (let i=0; i < response.length; i++) {
+//       markerList.push(response[i])
+//     }
+//   });
+
 // list of icons
 const iconList = {
   icon1: 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/256/Map-Marker-Flag--Right-Chartreuse.png',
@@ -51,14 +62,14 @@ const GMap = () => {
     position: { lat: markerObj.lat, lng: markerObj.lng },
     map: googleMap,
     icon: {
-      url: markerObj.icon,
+      url: 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/256/Map-Marker-Ball-Right-Azure.png',
       // set marker width and height
       scaledSize: new window.google.maps.Size(50, 50)
     },
     title: markerObj.title
   });
 
-  // create Info Windows
+  // create Info Windows that will show up when you click a location marker
   const createInfoWindow = (markerObj) => new window.google.maps.InfoWindow({
     content: markerObj.contentString
   });

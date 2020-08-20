@@ -3,7 +3,7 @@ const beaches = require("../models/Beaches.js");
 
 // Routes for beaches:
 
-router.get("/api/beaches", (req, res) => {
+router.get("/beaches", (req, res) => {
     beaches.find({})
         .then(dbbeaches => {
             res.json(dbbeaches);
