@@ -10,10 +10,10 @@ const iconList = {
 
 // list of the marker object along with icon
 const markerList = [
-  { lat: 29.328184, lng: -81.07734, icon: iconList.icon1, title: "Bone Valley ATV Park", contentString: "Address"},
-  { lat: 27.972112 , lng: -81.379784, icon: iconList.icon2, title: "Lake Kissimmee State Park", contentString: "Address" },
-  { lat: 27.475207, lng: -82.344167, icon: iconList.icon3, title: "Lake Manatee State Park", contentString: "Address"},
-  { lat: 29.999161, lng:  -84.484893, icon: iconList.icon4, title: "Ochlockonee River State Park", contentString: "Address"}
+  { lat: 29.328184, lng: -81.07734, icon: iconList.icon1, title: "Bone Valley ATV Park", contentString: "Bone Valley ATV Park: 10427 Co Rd 630 FL 33960"},
+  { lat: 27.972112 , lng: -81.379784, icon: iconList.icon2, title: "Lake Kissimmee State Park", contentString: "Lake Kissimme State Park: 14248 Camp Mack Rd, Lake Wales, FL 33898 " },
+  { lat: 27.475207, lng: -82.344167, icon: iconList.icon3, title: "Lake Manatee State Park", contentString: "Lake Manatee State Park: 20007 FL-64, Bradenton, FL 34212 "},
+  { lat: 29.999161, lng:  -84.484893, icon: iconList.icon4, title: "Ochlockonee River State Park", contentString: "Ochlockonee River State Park: 429 State Park Road, Sopchoppy Hwy, Sopchoppy, FL 32358"}
 ]
 
 
