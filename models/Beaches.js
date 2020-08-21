@@ -8,7 +8,7 @@ const BeachesSchema = new Schema({
     type: String,
     require: true
   },
-    lat: {
+  lat: {
     type: Number,
     require: true
   },

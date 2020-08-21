@@ -20,8 +20,9 @@ const markerList = [
 const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) => {
   const googleMapRef = useRef(null);
   let googleMap = null
-  console.log(beaches)
-  
+  let mapData = [];
+  mapData.push(beaches.data, dispensaries.data)
+  console.log(mapData)
  
   
   

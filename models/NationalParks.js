@@ -8,7 +8,7 @@ const NationalParksSchema = new Schema({
     type: String,
     require: true
   },
-  address: {
+  contentString: {
     type: String,
     require: true
   },
@@ -19,10 +19,6 @@ const NationalParksSchema = new Schema({
   lng: {
     type: String,
     require: true
-  },
-  contentString: {
-    type: String,
-    require: false
   }
 });
 

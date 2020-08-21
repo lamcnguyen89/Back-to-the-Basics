@@ -4,11 +4,11 @@ const Schema = mongoose.Schema;
 // This code creates a collection of awesome events to be held in Florida.
 
 const EventsSchema = new Schema({
-  siteName: {
+  title: {
     type: String,
     require: true
   },
-  address: {
+  contentString: {
     type: String,
     require: true
   },

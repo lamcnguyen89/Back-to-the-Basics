@@ -8,7 +8,7 @@ const DispensarySchema = new Schema({
     type: String,
     require: true
   },
-  Address: {
+  contentString: {
     type: String,
     require: true
   },
@@ -17,16 +17,12 @@ const DispensarySchema = new Schema({
     require: true
   },
   Lat: {
-    type: String,
+    type: Number,
     require: true
   },
   Lng: {
-    type: String,
+    type: Number,
     require: true
-  },
-  contentString: {
-    type: String,
-    require: false
   }
 });
 
