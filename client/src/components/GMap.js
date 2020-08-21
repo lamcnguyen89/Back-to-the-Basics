@@ -16,34 +16,13 @@ const markerList = [
   { lat: 29.999161, lng:  -84.484893, icon: iconList.icon4, title: "Ochlockonee River State Park", contentString: "Ochlockonee River State Park: 429 State Park Road, Sopchoppy Hwy, Sopchoppy, FL 32358"}
 ]
 
-const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) => {
+const GMap = ({beaches}) => {
   const googleMapRef = useRef(null);
   let googleMap = null
   
   // Combine all the models data into one arrat
-  let concatArr = beaches.data.concat (dispensaries.data, events.data 
-    // gunstores.data, 
-    // nationalparks.data, 
-    // organicfarms.data, 
-    // outdoorstores.data, 
-    // random.data, 
-    // stateparks.data
-    )
-//  const concatArr = beaches.data.concat (//dispensaries.data,
-    //events.data, 
-    // gunstores.data, 
-    // nationalparks.data, 
-    // organicfarms.data, 
-    // outdoorstores.data, 
-    // random.data, 
-    // stateparks.data
-    // )
-
-
-  // const combineArray= [beaches.data, dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data]
-  // console.log(combineArray);
-    // dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data
-  
+  let concatArr = beaches.data
+    
   const mapData = concatArr.map(location=>{
     return {
       lat: location.lat,
