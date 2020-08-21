@@ -8,6 +8,14 @@ const BeachesSchema = new Schema({
     type: String,
     require: true
   },
+  address: {
+    type: String,
+    require: true
+  },
+  phone: {
+    type: String,
+    require: false
+  },
   lat: {
     type: Number,
     require: true
