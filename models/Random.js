@@ -32,6 +32,10 @@ const RandomSchema = new Schema({
   contentString: {
     type: String,
     require: false
+  },
+  category: {
+    type: String,
+    require: false
   }
 });
 

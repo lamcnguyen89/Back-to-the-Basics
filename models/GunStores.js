@@ -32,6 +32,10 @@ const GunStoresSchema = new Schema({
   contentString: {
     type: String,
     require: false
+  },
+  category: {
+    type: String,
+    require: false
   }
 });
 
