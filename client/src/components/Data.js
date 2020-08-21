@@ -9,7 +9,8 @@ import MapAPI from '../utils/MapAPI';
 
 class Data extends Component {
     state = {  
-        beaches: []
+        beaches: [],
+        places: []
     }
 
     // Mount API Map data and push it to the state:
@@ -18,8 +19,10 @@ class Data extends Component {
             .then(beaches =>{ 
                 this.setState({ beaches: beaches })})
             .catch(err => console.error(err));
-        
-        
+        MapAPI.getPlaces()
+            .then(places =>{ 
+                this.setState({ places: places })})
+            .catch(err => console.error(err));  
     }
 
 
@@ -28,6 +31,7 @@ class Data extends Component {
             <>
                 <MapContainer
                     beaches={this.state.beaches}
+                    places={this.state.places}
                 />
 
             </>

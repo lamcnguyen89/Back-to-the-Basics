@@ -5,6 +5,10 @@ export default {
     getBeaches: function(query) {
         return axios.get("/api/beaches");
     },
+    getPlaces: function(query) {
+        return axios.get("/api/places");
+    },
+    
     
 
 }
