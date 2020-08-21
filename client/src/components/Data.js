@@ -9,15 +9,7 @@ import MapAPI from '../utils/MapAPI';
 
 class Data extends Component {
     state = {  
-        beaches: [],
-        dispensaries: [],
-        events: [],
-        gunstores: [],
-        nationalparks: [],
-        organicfarms: [],
-        outdoorstores: [],
-        random: [],
-        stateparks: []
+        beaches: []
     }
 
     // Mount API Map data and push it to the state:
@@ -26,30 +18,7 @@ class Data extends Component {
             .then(beaches =>{ 
                 this.setState({ beaches: beaches })})
             .catch(err => console.error(err));
-        MapAPI.getDispensaries()
-            .then(dispensaries => this.setState({ dispensaries: dispensaries }))
-            .catch(err => console.error(err));
-        MapAPI.getEvents()
-            .then(events => this.setState({ events: events }))
-            .catch(err => console.error(err));
-        MapAPI.getGunStores()
-            .then(gunstores => this.setState({ gunstores: gunstores }))
-            .catch(err => console.error(err));
-        MapAPI.getNationalParks()
-            .then(nationalparks => this.setState({ nationalparks: nationalparks }))
-            .catch(err => console.error(err));
-        MapAPI.getOrganicFarms()
-            .then(organicfarms => this.setState({ organicfarms: organicfarms }))
-            .catch(err => console.error(err));
-        MapAPI.getOutdoorStores()
-            .then(outdoorstores => this.setState({ outdoorstores: outdoorstores }))
-            .catch(err => console.error(err));
-        MapAPI.getRandom()
-            .then(random => this.setState({ random: random }))
-            .catch(err => console.error(err));
-        MapAPI.getStateParks()
-            .then(stateparks => this.setState({ stateparks: stateparks }))
-            .catch(err => console.error(err));
+        
         
     }
 
@@ -59,14 +28,6 @@ class Data extends Component {
             <>
                 <MapContainer
                     beaches={this.state.beaches}
-                    dispensaries={this.state.dispensaries}
-                    events={this.state.events}
-                    gunstores={this.state.gunstores}
-                    nationalparks={this.state.nationalparks}
-                    organicfarms={this.state.organicfarms}
-                    outdoorstores={this.state.outdoorstores}
-                    random={this.state.random}
-                    stateparks={this.state.stateparks}
                 />
 
             </>
