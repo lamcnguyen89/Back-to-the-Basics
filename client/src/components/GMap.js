@@ -16,7 +16,6 @@ const markerList = [
   { lat: 29.999161, lng:  -84.484893, icon: iconList.icon4, title: "Ochlockonee River State Park", contentString: "Ochlockonee River State Park: 429 State Park Road, Sopchoppy Hwy, Sopchoppy, FL 32358"}
 ]
 
-
 const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) => {
   const googleMapRef = useRef(null);
   let googleMap = null
@@ -26,18 +25,14 @@ const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicf
   // console.log(beaches)
   const mapData = combineArr.map(location=>{
     return {
-      lat: location.Lat,
-      lng: location.Lng,
+      lat: location.lat,
+      lng: location.lng,
       icon: location.icon,
       title: location.title,
       contentString: location.contentString
     }
   });
-
-  // console.log(mapData);
  
-  
-  
   // Function that compiles the initGoogleMap, the createMarker, and showInfoWindow functions
   useEffect(() => {
   
@@ -53,7 +48,6 @@ const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicf
       });
       googleMap.fitBounds(bounds); // the map to contain all markers
   }, []);
-
 
   // initialize the google map
   const initGoogleMap = () => {
