@@ -17,6 +17,8 @@ mongoimport --type csv -d backbasicsdb -c stateParks --headerline --drop StatePa
 
 mongoimport --type csv -d backbasicsdb -c dispensaries --headerline --drop Dispensaries.csv;
 
+mongoimport --type csv -d backbasicsdb -c places --headerline --drop places.csv;
+
 
 
 
