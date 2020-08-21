@@ -21,7 +21,25 @@ const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicf
   let googleMap = null
   
   // Combine all the models data into one arrat
-  const concatArr = beaches.data.concat(dispensaries.data,events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data)
+  let concatArr = beaches.data.concat (dispensaries.data, events.data 
+    // gunstores.data, 
+    // nationalparks.data, 
+    // organicfarms.data, 
+    // outdoorstores.data, 
+    // random.data, 
+    // stateparks.data
+    )
+//  const concatArr = beaches.data.concat (//dispensaries.data,
+    //events.data, 
+    // gunstores.data, 
+    // nationalparks.data, 
+    // organicfarms.data, 
+    // outdoorstores.data, 
+    // random.data, 
+    // stateparks.data
+    // )
+
+
   // const combineArray= [beaches.data, dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data]
   // console.log(combineArray);
     // dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data
