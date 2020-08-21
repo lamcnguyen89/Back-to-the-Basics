@@ -20,9 +20,21 @@ const markerList = [
 const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) => {
   const googleMapRef = useRef(null);
   let googleMap = null
-  let mapData = [];
-  mapData.push(beaches.data, dispensaries.data)
-  console.log(mapData)
+  
+  const combineArr = [beaches.data, dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data];
+  console.log(combineArr.flat());
+  // console.log(beaches)
+  const mapData = combineArr.map(location=>{
+    return {
+      lat: location.Lat,
+      lng: location.Lng,
+      icon: location.icon,
+      title: location.title,
+      contentString: location.contentString
+    }
+  });
+
+  // console.log(mapData);
  
   
   
@@ -31,7 +43,7 @@ const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicf
   
       googleMap = initGoogleMap();
       var bounds = new window.google.maps.LatLngBounds();
-      markerList.map(x => {
+      mapData.map(x => {
         var infoWindow = createInfoWindow(x);
         const marker = createMarker(x);
         bounds.extend(marker.position);
