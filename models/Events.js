@@ -8,17 +8,30 @@ const EventsSchema = new Schema({
     type: String,
     require: true
   },
-  contentString: {
+  address: {
     type: String,
     require: true
   },
-  lat: {
+  phone: {
     type: String,
+    require: false
+  },
+  lat: {
+    type: Number,
     require: true
   },
   lng: {
+    type: Number,
+    require: true
+  },
+ 
+  icon: {
     type: String,
     require: true
+  },
+  contentString: {
+    type: String,
+    require: false
   }
 });
 
