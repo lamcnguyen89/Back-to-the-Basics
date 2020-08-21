@@ -19,11 +19,15 @@ const markerList = [
 
 const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) => {
   const googleMapRef = useRef(null);
-  let googleMap = null;
-  var mapInfo = [beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks];
+  let googleMap = null
+  console.log(beaches)
+  
+ 
+  
   
   // Function that compiles the initGoogleMap, the createMarker, and showInfoWindow functions
   useEffect(() => {
+  
       googleMap = initGoogleMap();
       var bounds = new window.google.maps.LatLngBounds();
       markerList.map(x => {

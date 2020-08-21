@@ -16,7 +16,7 @@ const NationalParksSchema = new Schema({
     type: String,
     require: true
   },
-  long: {
+  lng: {
     type: String,
     require: true
   },

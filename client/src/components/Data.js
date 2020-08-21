@@ -24,7 +24,6 @@ class Data extends Component {
     componentDidMount() {
         MapAPI.getBeaches()
             .then(beaches =>{ 
-                console.log("beaches", beaches);
                 this.setState({ beaches: beaches })})
             .catch(err => console.error(err));
         MapAPI.getDispensaries()

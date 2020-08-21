@@ -9,17 +9,14 @@ const BeachesSchema = new Schema({
     require: true
   },
     lat: {
-    type: String,
+    type: Number,
     require: true
   },
-  long: {
-    type: String,
+  lng: {
+    type: Number,
     require: true
   },
-  long: {
-    type: String,
-    require: true
-  },
+ 
   icon: {
     type: String,
     require: true
