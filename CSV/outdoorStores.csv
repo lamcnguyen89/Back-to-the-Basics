@@ -1,25 +1,25 @@
-site-name,address,phone,lat,long
-BASS PRO SHOPS BRANDON,"10501 Palm River Rd, Tampa, FL 33619",(813) 655-2400,27.90834,-82.40183
-BASS PRO SHOPS ORLANDO,"5156 International Dr, Orlando, FL 32819",(407) 563-5200,28.47003,-81.44863
-BASS PRO SHOPS PALM BAY,"750 Bass Pro Dr NE, Palm Bay, FL 32905",(321) 674-3700,28.03415,-80.65237
-BASS PRO SHOPS PORT ST. LUCIE,"2250 Gatlin Blvd, Port St. Lucie, FL 34953",(772) 785-7600,27.26218,-80.41929
-BASS PRO SHOPS FT. MYERS,"10040 Gulf Center Dr, Ft. Myers, FL 33913",(239) 461-7800,26.48794,-81.79118
-REI Gainesville,"3650 SW 32nd Ct, Suite 10, Gainesville, FL 32608",(352) 204-9265,29.65247,-82.45047
-REI Jacksonville,"4862 Big Island Drive, Jacksonville, FL 32246",(904) 996-1613,30.25387,-81.529732
-REI Winter Park,"430 Orlando Ave, Winter Park, FL 32789",(407) 647-0731,28.60112,-81.3647
-ACADEMY SPORTS + OUTDOORS Kissimmee,"621 Centerview Boulevard, Kissimmee, FL 34741",(321) 697-5100,28.33983,-81.41231
-ACADEMY SPORTS + OUTDOORSSoutheast Orlando,"6640 Eagle Watch Drive, Orlando, FL 32822",(407) 204-3900,28.46709,-81.3046
-ACADEMY SPORTS + OUTDOORSSouthwest Orlando,"3557 Gardens Ridge Way, Orlando, FL 32839",(407) 481-5001,28.49563,-81.42314
-ACADEMY SPORTS + OUTDOORS West Melbourne,"4285 Norfolk Pkwy, West Melbourne, FL 32904",(321) 733-5000,28.03998,-80.66114
-ACADEMY SPORTS + OUTDOORS Northeast Orlando,"11955 E Colonial Dr, Orlando, FL 32826",(407) 243-2000,28.56447,-81.14262
-ACADEMY SPORTS + OUTDOORS Lake Mary,"3641 Lake Emma Road, Lake Mary, FL 32746",(407) 833-4000,28.75298,-81.35867
-Dick's Sporting Goods,"1100 Alafaya Trail, Orlando, FL 32828",407-380-90666,28.48142,-81.16831
-Dick's Sporting Goods,"724 Herndon Avenue, Orlando, FL 32803",321-332-9991,28.55468,-81.33824
-Dick's Sporting Goods,"350 Towne Center Circle, Sanford, FL 32771",407-324-5800,28.80362,-81.33762
-Dick's Sporting Goods,"4615 Millenia Plaza Way, Orlando, FL 32839",407-355-0733,28.49702,-81.42892
-Dick's Sporting Goods,"8001 S Orange Blossom Trail, Orlando, FL 32809",321-445-4286,28.44696,-81.39624
-Dick's Sporting Goods,"1325 Sandy Grove Avenue, Clermont, FL 34711",352-404-5354,28.54525,-81.73315
-Dick's Sporting Goods,"2500 W. International Speedway Blvd, Daytona Beach, FL 32114",386-255-5533,29.17976,-81.08379
-Dick's Sporting Goods,"1300 Posner Blvd, Davenport, FL 33837",863-424-4444,28.22666,-81.64508
-Dick's Sporting Goods,"1700 W. New Haven Avenue, Melbourne, FL 32904",321-984-4012,28.08158,-80.64975
-Dick's Sporting Goods,"919 Lakeland Park Center Dr., Lakeland, FL 33809",863-248-1200,28.08841,-81.96903
+title,address,phone,lat,long,contentString
+BASS PRO SHOPS BRANDON,"10501 Palm River Rd, Tampa, FL 33619",(813) 655-2400,27.90834,-82.40183,
+BASS PRO SHOPS ORLANDO,"5156 International Dr, Orlando, FL 32819",(407) 563-5200,28.47003,-81.44863,
+BASS PRO SHOPS PALM BAY,"750 Bass Pro Dr NE, Palm Bay, FL 32905",(321) 674-3700,28.03415,-80.65237,
+BASS PRO SHOPS PORT ST. LUCIE,"2250 Gatlin Blvd, Port St. Lucie, FL 34953",(772) 785-7600,27.26218,-80.41929,
+BASS PRO SHOPS FT. MYERS,"10040 Gulf Center Dr, Ft. Myers, FL 33913",(239) 461-7800,26.48794,-81.79118,
+REI Gainesville,"3650 SW 32nd Ct, Suite 10, Gainesville, FL 32608",(352) 204-9265,29.65247,-82.45047,
+REI Jacksonville,"4862 Big Island Drive, Jacksonville, FL 32246",(904) 996-1613,30.25387,-81.529732,
+REI Winter Park,"430 Orlando Ave, Winter Park, FL 32789",(407) 647-0731,28.60112,-81.3647,
+ACADEMY SPORTS + OUTDOORS Kissimmee,"621 Centerview Boulevard, Kissimmee, FL 34741",(321) 697-5100,28.33983,-81.41231,
+ACADEMY SPORTS + OUTDOORSSoutheast Orlando,"6640 Eagle Watch Drive, Orlando, FL 32822",(407) 204-3900,28.46709,-81.3046,
+ACADEMY SPORTS + OUTDOORSSouthwest Orlando,"3557 Gardens Ridge Way, Orlando, FL 32839",(407) 481-5001,28.49563,-81.42314,
+ACADEMY SPORTS + OUTDOORS West Melbourne,"4285 Norfolk Pkwy, West Melbourne, FL 32904",(321) 733-5000,28.03998,-80.66114,
+ACADEMY SPORTS + OUTDOORS Northeast Orlando,"11955 E Colonial Dr, Orlando, FL 32826",(407) 243-2000,28.56447,-81.14262,
+ACADEMY SPORTS + OUTDOORS Lake Mary,"3641 Lake Emma Road, Lake Mary, FL 32746",(407) 833-4000,28.75298,-81.35867,
+Dick's Sporting Goods,"1100 Alafaya Trail, Orlando, FL 32828",407-380-90666,28.48142,-81.16831,
+Dick's Sporting Goods,"724 Herndon Avenue, Orlando, FL 32803",321-332-9991,28.55468,-81.33824,
+Dick's Sporting Goods,"350 Towne Center Circle, Sanford, FL 32771",407-324-5800,28.80362,-81.33762,
+Dick's Sporting Goods,"4615 Millenia Plaza Way, Orlando, FL 32839",407-355-0733,28.49702,-81.42892,
+Dick's Sporting Goods,"8001 S Orange Blossom Trail, Orlando, FL 32809",321-445-4286,28.44696,-81.39624,
+Dick's Sporting Goods,"1325 Sandy Grove Avenue, Clermont, FL 34711",352-404-5354,28.54525,-81.73315,
+Dick's Sporting Goods,"2500 W. International Speedway Blvd, Daytona Beach, FL 32114",386-255-5533,29.17976,-81.08379,
+Dick's Sporting Goods,"1300 Posner Blvd, Davenport, FL 33837",863-424-4444,28.22666,-81.64508,
+Dick's Sporting Goods,"1700 W. New Haven Avenue, Melbourne, FL 32904",321-984-4012,28.08158,-80.64975,
+Dick's Sporting Goods,"919 Lakeland Park Center Dr., Lakeland, FL 33809",863-248-1200,28.08841,-81.96903,

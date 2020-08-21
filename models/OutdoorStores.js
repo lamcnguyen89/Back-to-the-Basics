@@ -4,11 +4,15 @@ const Schema = mongoose.Schema;
 // This code creates a collection of awesome outdoor supply stores located in Florida.
 
 const OutdoorStoresSchema = new Schema({
-  siteName: {
+  title: {
     type: String,
     require: true
   },
   address: {
+    type: String,
+    require: true
+  },
+  phone: {
     type: String,
     require: true
   },
@@ -17,6 +21,10 @@ const OutdoorStoresSchema = new Schema({
     require: true
   },
   long: {
+    type: String,
+    require: true
+  },
+  contentString: {
     type: String,
     require: true
   }
