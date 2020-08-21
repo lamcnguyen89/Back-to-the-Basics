@@ -14,19 +14,24 @@ const OutdoorStoresSchema = new Schema({
   },
   phone: {
     type: String,
-    require: true
+    require: false
   },
   lat: {
-    type: String,
+    type: Number,
     require: true
   },
   lng: {
+    type: Number,
+    require: true
+  },
+ 
+  icon: {
     type: String,
     require: true
   },
   contentString: {
     type: String,
-    require: true
+    require: false
   }
 });
 

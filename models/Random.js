@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 // This code creates a collection of random cool shit located in Florida.
 
 const RandomSchema = new Schema({
-  siteName: {
+  title: {
     type: String,
     require: true
   },
@@ -12,13 +12,26 @@ const RandomSchema = new Schema({
     type: String,
     require: true
   },
-  lat: {
+  phone: {
     type: String,
+    require: false
+  },
+  lat: {
+    type: Number,
     require: true
   },
   lng: {
+    type: Number,
+    require: true
+  },
+ 
+  icon: {
     type: String,
     require: true
+  },
+  contentString: {
+    type: String,
+    require: false
   }
 });
 
