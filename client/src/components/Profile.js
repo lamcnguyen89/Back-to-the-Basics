@@ -1,5 +1,7 @@
 
-        <div class="col-md-4 text-right pt-2">
+  
+  
+  <div class="col-md-4 text-right pt-2">
         <a class="text-white pr-0 mr-3" href="/user/profile"><span class="userName text-primary"></span>
             <i class="fas fa-user-circle fa-2x mt-1 ml-2 mb-2 text-primary"></i></a>
     </div>

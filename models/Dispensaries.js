@@ -23,7 +23,7 @@ const DispensarySchema = new Schema({
   Long: {
     type: String,
     require: true
-  }
+  },
   contentString: {
     type: String,
     require: false

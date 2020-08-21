@@ -20,7 +20,6 @@ const loadGoogleMapScript = (callback) => {
 
 function MapContainer({beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks}) {
   const [loadMap, setLoadMap] = useState(false);
-  console.log(beaches, dispensaries, events, gunstores, nationalparks, organicfarms, outdoorstores, random, stateparks)
   useEffect(() => {
     loadGoogleMapScript(() => {
       setLoadMap(true)
