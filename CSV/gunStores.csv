@@ -1,23 +1,23 @@
-city,site-name,address,phone,lat,long
-Coral Springs,Masa Firearms,"11070 WIles Rd, Suite A, Coral Springs, Florida 33321",954-675-4308,26.28686,-80.27428
-Davie,Florida Gun Center ,"4841 Volunteer Rd, Davie, Florida 33330",954-533-3740,26.05995,-80.34611
-Deerfield Beach,Gun World of South Florida ,"1700 South Powerline Road, Deerfield Beach, Florida 33442",954-596-0526,26.2928,-80.15167
-Doral,Zulu Armoury ,"1365 NW 98th Ct, Suite 7, Doral, Florida 33172",786-580-5136,25.78652,-80.35484
-Ferdandina,T-n-T FIrearms & Accessories ,"474372 E State Rd 200, Suite A, Ferdandina, Florida 32034",904-442-8746,30.61791,-81.51692
-Fort Myers,AK-103,"3112-1 Palm Ave, Fort Myers, Florida 33901",239-334-4231,26.61977,-81.85649
-Hialeah,Limited Arms ,"6187 NW 167th St, Suite H1, Hialeah, Florida 33015",305-523-9709,25.88055,-80.29162
-Inverness,Florida Gun Supply ,"118 N Pine Ave, Inverness, Florida 34450",352-270-3087,28.83744,-82.33144
-Jacksonville,Red Ryder Armory ,"6690 Columbia Park Dr, Suite 1, Jacksonville, Florida 32258",904-535-5980,30.15773,-81.53806
-Jacksonville Beach,,"922 9th St S, Jacksonville Beach, Florida 32250",904-424-0420,30.27805,-81.39687
-Jupiter,,"9270 W Indiantown Rd, Suite C4, Jupiter, Florida 33478",561-320-9184,26.93403,-80.09361
-Kissimmee,The Armories,"564 E Osceola Pkwy, Kissimmee, Florida 34744",407-201-6133,28.33721,-81.39828
-Leesburg,Central Florida Gun and Tactical LLC,"320 Executive Blvd, Leesburg, Florida 34748",352-434-4382,28.80969,-81.93021
-Margate,Advanced Firearms ,"2175 SR 7, Margate, Florida 33062",954-968-GUNS,26.25532,-80.20172
-Miami,Florida Armory Gun Shop & Police Supply,"8870 SW 40th St, Miami, Florida 33165",305-207-1300,25.73272,-80.33948
-Miami Lakes,,"14411 Commerce Way, Suite 420, Miami Lakes, Florida 33016",305-986-0641,25.90426,-80.32838
-North Miami Beach,,"321 NE 167th St, North Miami Beach, Florida 33162",305-705-2340,25.92846,-80.19387
-Orange City,Action Gun & Military Surplus ,"216 Industrial loop S, Suite 101, Orange City, Florida 32273",904-458-4605,28.58777,-81.42717
-Orlando,,"5512 S Orange Blossom Trail, Orlando, Florida 32839",407-859-5064,28.44231,-81.403
-Ormond Beach,,"1050 S Nova Rd, Ormond Beach, Florida 32174",,29.26617,-81.0784
-Port St Lucie,,"6672 South US 1 Highway, Port St Lucie, Florida 34952",772-242-8293,27.34283,-80.32474
-Sunrise,Pro Sporting Goods,"141 NW 136th Ave, Sunrise, Florida 33325",954-846-2336,26.12203,-80.33024
+city,title,address,phone,lat,long,contentString
+Coral Springs,Masa Firearms,"11070 WIles Rd, Suite A, Coral Springs, Florida 33321",954-675-4308,26.28686,-80.27428,
+Davie,Florida Gun Center ,"4841 Volunteer Rd, Davie, Florida 33330",954-533-3740,26.05995,-80.34611,
+Deerfield Beach,Gun World of South Florida ,"1700 South Powerline Road, Deerfield Beach, Florida 33442",954-596-0526,26.2928,-80.15167,
+Doral,Zulu Armoury ,"1365 NW 98th Ct, Suite 7, Doral, Florida 33172",786-580-5136,25.78652,-80.35484,
+Ferdandina,T-n-T FIrearms & Accessories ,"474372 E State Rd 200, Suite A, Ferdandina, Florida 32034",904-442-8746,30.61791,-81.51692,
+Fort Myers,AK-103,"3112-1 Palm Ave, Fort Myers, Florida 33901",239-334-4231,26.61977,-81.85649,
+Hialeah,Limited Arms ,"6187 NW 167th St, Suite H1, Hialeah, Florida 33015",305-523-9709,25.88055,-80.29162,
+Inverness,Florida Gun Supply ,"118 N Pine Ave, Inverness, Florida 34450",352-270-3087,28.83744,-82.33144,
+Jacksonville,Red Ryder Armory ,"6690 Columbia Park Dr, Suite 1, Jacksonville, Florida 32258",904-535-5980,30.15773,-81.53806,
+Jacksonville Beach,,"922 9th St S, Jacksonville Beach, Florida 32250",904-424-0420,30.27805,-81.39687,
+Jupiter,,"9270 W Indiantown Rd, Suite C4, Jupiter, Florida 33478",561-320-9184,26.93403,-80.09361,
+Kissimmee,The Armories,"564 E Osceola Pkwy, Kissimmee, Florida 34744",407-201-6133,28.33721,-81.39828,
+Leesburg,Central Florida Gun and Tactical LLC,"320 Executive Blvd, Leesburg, Florida 34748",352-434-4382,28.80969,-81.93021,
+Margate,Advanced Firearms ,"2175 SR 7, Margate, Florida 33062",954-968-GUNS,26.25532,-80.20172,
+Miami,Florida Armory Gun Shop & Police Supply,"8870 SW 40th St, Miami, Florida 33165",305-207-1300,25.73272,-80.33948,
+Miami Lakes,,"14411 Commerce Way, Suite 420, Miami Lakes, Florida 33016",305-986-0641,25.90426,-80.32838,
+North Miami Beach,,"321 NE 167th St, North Miami Beach, Florida 33162",305-705-2340,25.92846,-80.19387,
+Orange City,Action Gun & Military Surplus ,"216 Industrial loop S, Suite 101, Orange City, Florida 32273",904-458-4605,28.58777,-81.42717,
+Orlando,,"5512 S Orange Blossom Trail, Orlando, Florida 32839",407-859-5064,28.44231,-81.403,
+Ormond Beach,,"1050 S Nova Rd, Ormond Beach, Florida 32174",,29.26617,-81.0784,
+Port St Lucie,,"6672 South US 1 Highway, Port St Lucie, Florida 34952",772-242-8293,27.34283,-80.32474,
+Sunrise,Pro Sporting Goods,"141 NW 136th Ave, Sunrise, Florida 33325",954-846-2336,26.12203,-80.33024,

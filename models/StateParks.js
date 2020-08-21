@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 // This code creates a collection of beautiful state parks located in Florida.
 
 const StateParksSchema = new Schema({
-  siteName: {
+  title: {
     type: String,
     require: true
   },
@@ -19,6 +19,10 @@ const StateParksSchema = new Schema({
   long: {
     type: String,
     require: true
+  },
+  contentString: {
+    type: String,
+    require: false
   }
 });
 

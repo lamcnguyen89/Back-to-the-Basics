@@ -4,21 +4,29 @@ const Schema = mongoose.Schema;
 // This code creates a collection of awesome beach destinations in Florida.
 
 const BeachesSchema = new Schema({
-  siteName: {
+  title: {
     type: String,
     require: true
   },
-  address: {
-    type: String,
-    require: true
-  },
-  lat: {
+    lat: {
     type: String,
     require: true
   },
   long: {
     type: String,
     require: true
+  },
+  long: {
+    type: String,
+    require: true
+  },
+  icon: {
+    type: String,
+    require: true
+  },
+  contentString: {
+    type: String,
+    require: false
   }
 });
 
