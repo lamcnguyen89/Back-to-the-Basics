@@ -21,8 +21,9 @@ const GMap = ({beaches, dispensaries, events, gunstores, nationalparks, organicf
   let googleMap = null
   
   // Combine all the models data into one arrat
-  const combineArr = [beaches.data, dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data];
-  combineArr.flat = combineArray;
+  const combineArr = [beaches.data] 
+    // dispensaries.data, events.data, gunstores.data, nationalparks.data, organicfarms.data, outdoorstores.data, random.data, stateparks.data];
+   var combineArray = combineArr.flat;
   console.log(combineArr.flat());
   
   const mapData = combineArray.map(location=>{
