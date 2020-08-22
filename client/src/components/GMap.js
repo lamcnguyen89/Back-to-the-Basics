@@ -3,10 +3,10 @@ import React, { useEffect, useRef } from 'react';
 const GMap = ({beaches, places}) => {
   const googleMapRef = useRef(null);
   let googleMap = null
-  console.log(places.data)
+  console.log(places)
   
-  // Combine all the models data into one arrat
-  const mapData = places.data.map(location=>{
+  // Combine all the models data into one array
+  const mapData = beaches.data.map(location=>{
     return {
       lat: location.lat,
       lng: location.lng,
@@ -15,7 +15,7 @@ const GMap = ({beaches, places}) => {
       contentString: location.contentString
     }
   });
- 
+ console.log(mapData);
   // Function that compiles the initGoogleMap, the createMarker, and showInfoWindow functions
   useEffect(() => {
   

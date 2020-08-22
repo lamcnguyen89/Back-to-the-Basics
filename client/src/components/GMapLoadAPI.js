@@ -18,7 +18,7 @@ const loadGoogleMapScript = (callback) => {
   }
 }
 
-function MapContainer({beaches, places}) {
+function MapContainer({ places}) {
   const [loadMap, setLoadMap] = useState(false);
   useEffect(() => {
     loadGoogleMapScript(() => {
@@ -30,7 +30,6 @@ function MapContainer({beaches, places}) {
     <div className="GoogleMap">
       {!loadMap ? <div>Loading...</div> : 
         <GMap
-          beaches={beaches}
           places={places}       
         />
       }

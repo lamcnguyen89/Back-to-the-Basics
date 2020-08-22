@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header, Message } from "semantic-ui-react";
-import MapContainer from '../../components/GMapLoadAPI';
-import Data from '../../components/Data';
+import GoogleMaps from '../../components/Data';
 
 
 export const displaymap = () => {
@@ -12,7 +11,7 @@ export const displaymap = () => {
                 <p>Make the outdoors great again!</p>
                 <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
             </Message>
-            <Data />
+            <GoogleMaps />
         </>
     )
 }
