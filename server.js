@@ -4,7 +4,6 @@ const path = require("path");
 const mongoose = require("mongoose");
 const config = require("./config");
 const userLogin = require("./routes/index");
-const beachesRoutes = require("./routes/beachesRoutes.js");
 const placesRoutes = require("./routes/placesRoutes.js")
 const app = express();
 
@@ -25,7 +24,6 @@ mongoose.connect(config.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: 
 
 // Connect to Routes for User Login and then Map Markers.
 app.use(userLogin);
-app.use(beachesRoutes);
 app.use(placesRoutes);
 
 // check for "production" enviroment and set port
