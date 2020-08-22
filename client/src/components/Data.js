@@ -29,7 +29,7 @@ class GoogleMapDisplay extends Component {
         MapAPI.getPlaces()
             .then(places =>{
                 this.setState({ places: places.data })
-                console.log(this.state.places);
+                // console.log(this.state.places);
             })
             .catch(err => console.error(err));  
     };
@@ -43,9 +43,16 @@ class GoogleMapDisplay extends Component {
                     position={{lat: places.lat, lng: places.lng}}
                     name= {places.title}
                     onClick={this.onMarkerClick} 
-                />
+                >
+                </Marker>
+                
         })
       };
+
+    // Function to loop through the state named "places" and create markers.
+    displayInfoWindows = () => {
+
+    }
     
     
     // Event handler for when the map and marker are clicked.
@@ -76,13 +83,16 @@ class GoogleMapDisplay extends Component {
                 initialCenter={{ lat: 27.6648, lng: -81.5158}}
             >
                 {this.displayMarkers()}
-                <InfoWindow 
-                        marker={this.state.activeMarker}
-                        visible = {this.state.showingInfoWindow}
-                        onClose= {this.onClose}
-                >
-                    <h4>Name, Address and Content String go here. Now how?</h4>
-                </InfoWindow>
+                    <InfoWindow 
+                            marker={this.state.activeMarker}
+                            visible = {this.state.showingInfoWindow}
+                            onClose= {this.onClose}
+                    >       
+                        <h1>Title Goes Here</h1>
+                        <h4>Address Goes Here</h4>
+                        <p>Somehow I have to loop through the places array and display unique data in the info window</p>
+                        {this.state.places.title} 
+                    </InfoWindow>
             </Map>
         );
     }
