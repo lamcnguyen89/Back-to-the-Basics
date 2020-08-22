@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import MapAPI from '../utils/MapAPI';
-import {Map, GoogleApiWrapper, Marker} from 'google-maps-react';
+import {Map, GoogleApiWrapper, Marker, InfoWindow} from 'google-maps-react';
 
 // Source: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
+// Source 2: https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
+// npm documentation: https://www.npmjs.com/package/google-maps-react
 
 const mapStyles = {
     width: '100%',
@@ -10,29 +12,16 @@ const mapStyles = {
   };
 
 class GoogleMapDisplay extends Component {
+    // Constructor used to hold states and other things for reuse
     constructor(props) {
         super(props);
     
         this.state = {
-            stores: [{lat: 47.49855629475769, lng: -122.14184416996333},
-                  {latitude: 47.359423, longitude: -122.021071},
-                  {latitude: 47.2052192687988, longitude: -121.988426208496},
-                  {latitude: 47.6307081, longitude: -122.1434325},
-                  {latitude: 47.3084488, longitude: -122.2140121},
-                  {latitude: 47.5524695, longitude: -122.0425407}],
-            
-            places: [{}]
+            places: [{}],
+            showingInfoWindow: false, // Hides or the shows the infoWindow
+            activeMarker: {}, // Shows the active marker upon click
+            selectedPlace: {} // Shows the infoWindow to the selected place upon a marker
         }
-      }
-    
-      displayMarkers = () => {
-        return this.state.places.map((places, index) => {
-          return <Marker key={index} id={index} position={{
-           lat: places.lat,
-           lng: places.lng
-         }}
-         onClick={() => console.log("You clicked me!")} />
-        })
       }
 
     // Mount API Map data and push it to the state:
@@ -43,9 +32,41 @@ class GoogleMapDisplay extends Component {
                 console.log(this.state.places);
             })
             .catch(err => console.error(err));  
-    }
+    };
+    
+    // Function to loop through the state named "places" and create markers.
+    displayMarkers = () => {
+        return this.state.places.map((places, index) => {
+          return <Marker 
+                    key={index} 
+                    id={index} 
+                    position={{lat: places.lat, lng: places.lng}}
+                    name= {places.title}
+                    onClick={this.onMarkerClick} 
+                />
+        })
+      };
+    
+    
+    // Event handler for when the map and marker are clicked.
+    onMarkerClick = (props, marker, e) =>
+        this.setState({
+            selectedPlace: props,
+            activeMarker: marker,
+            showingInfoWindow: true
+        });
 
+    // Event handler for closing the inforWindow once the user clicks on the close button on the info window.
+    onClose = props => {
+        if (this.state.showingInfoWindow) {
+                this.setState({
+                showingInfoWindow: false,
+                activeMarker: null
+            });
+        }
+    };
 
+    // Function used to render data onto the web page. Uses JSX
     render() { 
         return (  
             <Map
@@ -55,6 +76,13 @@ class GoogleMapDisplay extends Component {
                 initialCenter={{ lat: 27.6648, lng: -81.5158}}
             >
                 {this.displayMarkers()}
+                <InfoWindow 
+                        marker={this.state.activeMarker}
+                        visible = {this.state.showingInfoWindow}
+                        onClose= {this.onClose}
+                >
+                    <h4>Name, Address and Content String go here. Now how?</h4>
+                </InfoWindow>
             </Map>
         );
     }
@@ -65,43 +93,4 @@ export default GoogleApiWrapper({
 })(GoogleMapDisplay);
 
   
-
-
-
-// class Data extends Component {
-//     state = {  
-//         places: []
-//     }
-
-//     // Mount API Map data and push it to the state:
-//     componentDidMount() {
-//         MapAPI.getPlaces()
-//             .then(places =>{
-//                 this.setState({ places: places })
-//             })
-//             .catch(err => console.error(err));  
-//     }
-
-    
-//     render() { 
-//         return (  
-//             <>
-//                         <Map
-//                             google={this.props.google}
-//                             zoom={8}
-//                             style={mapStyles}
-//                             initialCenter={{ lat: 27.6648, lng: -81.5158 }}
-//                         />
- 
-                
-             
-//             </>
-
-//         );
-//     }
-// }
- 
-// export default GoogleApiWrapper({
-//     apiKey: 'AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8'
-//   })(Data);
 
