@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MapAPI from '../utils/MapAPI';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
+import filterByClass from './filter';
 import SearchbyCategory from './SearchbyName';
 
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
@@ -100,6 +101,9 @@ class GoogleMapDisplay extends Component {
             <>
                 <SearchbyCategory 
                     searchbyName={this.state.searchbyName}
+                />
+                <filterByClass 
+                
                 />
                 <Map
                     google={this.props.google}

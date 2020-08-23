@@ -107,5 +107,4 @@ function Filter({searchCategory}) {
     )
 };
 
-
 export default Filter;
