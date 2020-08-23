@@ -1,9 +1,24 @@
 import React from "react";
+import beach from "../images/icons/beach.jpg";
+import weed from "../images/icons/weed.jpg";
+import gun from "../images/icons/gun.jpg";
+import nationalPark from "../images/icons/nationalPark.png";
+import shopping from "../images/icons/shopping.jpg";
+import statePark from "../images/icons/statePark.jpg";
+
+const icon = {
+    width: "25px",
+    height: "25px",
+};
+
+const card = {
+width: "18rem",
+}
 
 function Legend() {
-  
     return (
-    <div className="card" style="width: 18rem;">
+    <div className="card" 
+    >
       <div className="card-body">
         <h5 className="card-title">Legend</h5>
         <ul>
@@ -11,52 +26,51 @@ function Legend() {
             Beaches
             <img
               className="icon"
-              src="../../public/images/icons/beach.jpg"
-              style="width: 20px, height: 20px;"
+              src={beach}
+              style={icon}
             ></img>
           </li>
           <li>
             Marijuana Dispensary
             <img
               classNameName="icon"
-              src="../../public/images/icons/weed.jpg"
-              style="width: 20px; height: 20px;"
+              src={weed}
+              style={icon}
             ></img>
           </li>
           <li>
             Firearm Shops
             <img
               classNameName="icon"
-              src="../../public/images/icons/gun.jpg"
-              style="width: 20px; height: 20px;"
+              src={gun}
+              style={icon}
             ></img>
           </li>
           <li>
             National Parks
             <img
               classNameName="icon"
-              src="../../public/images/icons/nationalPark.png"
-              style="width: 20px; height: 20px;"
+              src={nationalPark}
+              style={icon}
             ></img>
           </li>
           <li>
             Outdoor Stores
             <img
               classNameName="icon"
-              src="../../public/images/icons/shopping.jpg"
-              style="width: 20px; height: 20px;"
+              src={shopping}
+              style={icon}
             ></img>
           </li>
           <li>
                  State Parks
                  <img classNameName = "icon"
-                 src="../../public/images/icons/statePark.jpg"
-                 style="width: 20px; height: 20px;"
+                 src={statePark}
+                 style={icon}
                  ></img></li>
         </ul>
       </div>
     </div>
   );
 }
-
 export default Legend;

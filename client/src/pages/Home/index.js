@@ -3,6 +3,7 @@ import { Header, Message, Button, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
+
 export const Home = () => {
     // access to the isAuthenticated property from the auth reducer state
     const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
@@ -29,7 +30,9 @@ export const Home = () => {
                 <Link to="/login">
                     {showLoginBtn()}
                 </Link>
+                
             </Message>
+
 
         </div>
     )
