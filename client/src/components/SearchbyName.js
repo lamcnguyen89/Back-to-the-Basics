@@ -1,13 +1,15 @@
-function searhBar ({searchCategory}) {
+import React from 'react';
+
+function searchBar ({searchbyName}) {
     return (
         <div className="searchbox">
             <form className="form-inline">
                 <input
                 className="form-control mr-sm-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Search by Name"
                 aria-label="Search"
-                onChange={e => searchCategory(e)}
+                onChange={e => searchbyName(e)}
                 />
                 <button className="btn my-2 my-sm-0" type="submit">
                     Search
@@ -18,4 +20,4 @@ function searhBar ({searchCategory}) {
 
 }
 
-export default searhBar;
+export default searchBar;

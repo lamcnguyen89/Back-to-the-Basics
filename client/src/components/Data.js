@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import MapAPI from '../utils/MapAPI';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
+import SearchbyCategory from './SearchbyName';
+
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
 // Source 2: https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
 // npm documentation: https://www.npmjs.com/package/google-maps-react
@@ -26,7 +28,7 @@ class GoogleMapDisplay extends Component {
             selectedPlace: {}, // Shows the infoWindow to the selected place upon a marker
 
             // function to handle a search by category
-            searchCategory: event => {
+            searchbyName: event => {
                 console.log(event.target.value);
                 const filter = event.target.value;
                 const filteredCategories = this.state.places.filter(item => {
@@ -60,7 +62,7 @@ class GoogleMapDisplay extends Component {
             return <Marker
                 key={index}
                 id={index}
-                title={"TEST"}
+                title={filteredPlaces.title}
                 position={{ lat: filteredPlaces.lat, lng: filteredPlaces.lng }}
                 name={filteredPlaces.title}
                 address={filteredPlaces.address}
@@ -83,7 +85,7 @@ class GoogleMapDisplay extends Component {
 
 
     // Event handler for closing the inforWindow once the user clicks on the close button on the info window.
-    onClose = props => {
+    onClose = () => {
         if (this.state.showingInfoWindow) {
             this.setState({
                 showingInfoWindow: false,
@@ -95,23 +97,30 @@ class GoogleMapDisplay extends Component {
     // Function used to render data onto the web page. Uses JSX
     render() {
         return (
-            <Map
-                google={this.props.google}
-                zoom={8}
-                style={mapStyles}
-                initialCenter={{ lat: 27.6648, lng: -81.5158 }}
-            >
-                {this.displayMarkers()}
-                <InfoWindow
-                    marker={this.state.activeMarker}
-                    visible={this.state.showingInfoWindow}
-                    onClose={this.onClose}
+            <>
+                <SearchbyCategory 
+                    searchbyName={this.state.searchbyName}
+                />
+                <Map
+                    google={this.props.google}
+                    zoom={8}
+                    style={mapStyles}
+                    initialCenter={{ lat: 27.6648, lng: -81.5158 }}
                 >
-                    <h1>{this.state.selectedPlace.name}</h1>
-                    <h4>{this.state.selectedPlace.address}</h4>
-                    <p>{this.state.selectedPlace.text}</p>
-                </InfoWindow>
-            </Map>
+                    {this.displayMarkers()}
+                    <InfoWindow 
+                        marker={this.state.activeMarker} 
+                        visible={this.state.showingInfoWindow} 
+                        onClose={this.onClose}>
+                            <h1>{this.state.selectedPlace.name}</h1>
+                            <h4>{this.state.selectedPlace.address}</h4>
+                            <p>{this.state.selectedPlace.text}</p>
+                    </InfoWindow>
+                </Map>
+                {/* <Filter 
+                    searchCategory={this.state.searchCategory}
+                /> */}
+            </>
         );
     }
 }
@@ -121,7 +130,7 @@ export default GoogleApiWrapper({
 
 // Styles the Google Map
 const mapStyles = {
-    width: '100%',
+    width: '70%',
     height: '100%',
 };
 
