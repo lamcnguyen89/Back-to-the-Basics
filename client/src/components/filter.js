@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 
 function Filter () => {
-
     return(
         <div class="card" style="width: 18rem;">
         <div class="card-body">
@@ -41,6 +40,5 @@ function Filter () => {
 
     )
 }
-
 
 export default Filter;
