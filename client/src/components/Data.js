@@ -4,21 +4,43 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
 // Source 2: https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
 // npm documentation: https://www.npmjs.com/package/google-maps-react
-const mapStyles = {
-    width: '100%',
-    height: '100%',
-};
+
+
 class GoogleMapDisplay extends Component {
-    // Constructor used to hold states and other things for reuse
+
+    // The constructor is a method that’s automatically called during the creation of an object from a class. 
+    // It can handle your initial setup stuff like defaulting some properties of the object, or sanity checking the arguments that were passed in. 
+    // Simply put, the constructor aids in constructing things.
+    // Source: https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components
     constructor(props) {
         super(props);
         this.state = {
             places: [{}],
+
+            filteredPlaces: [{}],
+
             showingInfoWindow: false, // Hides or the shows the infoWindow
+
             activeMarker: {}, // Shows the active marker upon click
-            selectedPlace: {} // Shows the infoWindow to the selected place upon a marker
-        }
+
+            selectedPlace: {}, // Shows the infoWindow to the selected place upon a marker
+
+            // function to handle a search by category
+            searchCategory: event => {
+                console.log(event.target.value);
+                const filter = event.target.value;
+                const filteredCategories = this.state.places.filter(item => {
+                // merge data together, then see if user input is anywhere inside
+                let values = Object.values(item)
+                    .join("")
+                    .toLowerCase();
+                return values.indexOf(filter.toLowerCase()) !== -1;
+                });
+                this.setState({ filteredPlaces: filteredCategories });
+          },
+        }  
     };
+
 
     // Mount API Map data and push it to the state:
     componentDidMount() {
@@ -26,29 +48,29 @@ class GoogleMapDisplay extends Component {
             .then(places => {
                 this.setState({ places: places.data })
                 // console.log(this.state.places);
+                this.setState({filteredPlaces: places.data})
             })
             .catch(err => console.error(err));
     };
 
+
     // Function to loop through the state named "places" and create markers.
     displayMarkers = () => {
-        return this.state.places.map((places, index) => {
+        return this.state.filteredPlaces.map((filteredPlaces, index) => {
             return <Marker
                 key={index}
                 id={index}
                 title={"TEST"}
-                position={{ lat: places.lat, lng: places.lng }}
-                name={places.title}
-                address={"Test address"}
-                text={"Test Text inside..!"}
+                position={{ lat: filteredPlaces.lat, lng: filteredPlaces.lng }}
+                name={filteredPlaces.title}
+                address={filteredPlaces.address}
+                text={filteredPlaces.contentString}
                 onClick={this.onMarkerClick}
             />
         })
     };
 
-    // Function to loop through the state named "places" and create markers.
-    displayInfoWindows = () => {
-    }
+
     // Event handler for when the map and marker are clicked.
     onMarkerClick = (props, marker, e) => {
         console.log("marker clicked");
@@ -58,6 +80,7 @@ class GoogleMapDisplay extends Component {
             showingInfoWindow: true
         })
     };
+
 
     // Event handler for closing the inforWindow once the user clicks on the close button on the info window.
     onClose = props => {
@@ -96,6 +119,11 @@ export default GoogleApiWrapper({
     apiKey: 'AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8'
 })(GoogleMapDisplay)
 
+// Styles the Google Map
+const mapStyles = {
+    width: '100%',
+    height: '100%',
+};
 
   
 
