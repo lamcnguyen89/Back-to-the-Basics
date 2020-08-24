@@ -5,8 +5,8 @@ import { useSelector } from "react-redux";
 import forest from "../../../src/images/forest.jpeg";
 
 const ab = {
-    width: "100%",
-    height: "100%",
+    width: "55%",
+    height: "55%",
     background: "Red",
 }
 
@@ -43,6 +43,7 @@ export const Home = () => {
                         fontFamily:"arial",
                     }}
                 >Back to the Basics
+                <br />
                 <img
                 className="ab"
                 src={forest}

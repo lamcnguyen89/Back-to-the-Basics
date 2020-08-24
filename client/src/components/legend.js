@@ -22,11 +22,19 @@ function Legend() {
       <div className="card-body"
       style={{
         backgroundColor:"#909497",
+        textAlign:"center",
+        color:"white"
       }}
       >
-        <h5 className="card-title">Legend</h5>
+        <h1 className="card-title">Legend</h1>
         <ul>
-          <li>
+          <li 
+          style={{
+            listStyleType: "none",
+            color: "white",
+            fontSize:"20pt",
+          }}
+          >
             Beaches
             <img
               className="icon"
@@ -34,7 +42,13 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li>
+          <li
+          style={{
+            listStyleType: "none",
+            color:"white",
+            fontSize:"20pt",
+          }}
+          >
             Marijuana Dispensary
             <img
               classNameName="icon"
@@ -42,7 +56,13 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li>
+          <li
+          style={{
+            listStyleType: "none",
+            color:"white",
+            fontSize:"20pt",
+          }}
+          >
             Firearm Shops
             <img
               classNameName="icon"
@@ -50,7 +70,14 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li>
+          <li
+          style={{
+            listStyleType: "none",
+            color:"white",
+            fontSize:"20pt",
+          
+          }}
+          >
             National Parks
             <img
               classNameName="icon"
@@ -58,7 +85,14 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li>
+          <li
+          style={{
+            listStyleType: "none",
+            color:"white",
+            fontSize:"20pt",
+          
+          }}
+          >
             Outdoor Stores
             <img
               classNameName="icon"
@@ -66,7 +100,14 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li>
+          <li
+          style={{
+            listStyleType: "none",
+            color:"white",
+            fontSize:"20pt",
+          
+          }}
+          >
                  State Parks
                  <img classNameName = "icon"
                  src={statePark}
