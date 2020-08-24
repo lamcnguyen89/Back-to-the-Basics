@@ -13,12 +13,12 @@ const icon = {
 
 const card = {
 width: "18rem",
+
 }
 
 function Legend() {
     return (
-    <div className="card" 
-    >
+    <div className="card">
       <div className="card-body">
         <h5 className="card-title">Legend</h5>
         <ul>
