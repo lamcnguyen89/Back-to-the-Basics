@@ -13,6 +13,7 @@ class InputData extends Component {
         this.onChangeLat = this.onChangeLat.bind(this);
         this.onChangeLng = this.onChangeLng.bind(this);
         this.onChangeDescription = this.onChangeDescription.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
 
         this.state = {
 
@@ -54,6 +55,7 @@ class InputData extends Component {
 
     // Method to handle the submit event of the form:
     onSubmit(e) {
+        console.log("Onsubmit fired");
         e.preventDefault();
         const newWayPoint = {
           title: this.state.title,
@@ -61,9 +63,8 @@ class InputData extends Component {
           lat: this.state.lat,
           lng: this.state.lng,
           icon: this.state.icon,
-          description: this.state.description
+          contentString: this.state.description
         };
-      console.log(newWayPoint);
       MapAPI.addPlace(newWayPoint)
         .then(res => console.log(res.data));
       }
@@ -71,6 +72,7 @@ class InputData extends Component {
     render() { 
         return (  
              <div> 
+                <h3>{this.state.title}</h3>
                   <h3>Create New Location Waypoint</h3>
                   <form onSubmit={this.onSubmit}>
                     

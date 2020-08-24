@@ -18,10 +18,10 @@ router.get("/api/places", (req, res) => {
 router.post("/api/newplace", (req, res) => {
     const title = req.body.title;
     const address = req.body.address;
-    const lat = req.body.latitude;
+    const lat = req.body.lat;
     const lng = req.body.lng;
     const icon = req.body.icon;
-    const description = req.body.description;
+    const contentString = req.body.contentString;
 
     const newPlace = new places({
         title,
@@ -29,9 +29,9 @@ router.post("/api/newplace", (req, res) => {
         lat,
         lng,
         icon,
-        description
+        contentString
     });
-
+    console.log(newPlace);
     newPlace.save()
         .then(()=> res.json("New Event or Place added!"))
         .catch(err => res.status(400).json('Error: ' + err));
