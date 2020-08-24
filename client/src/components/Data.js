@@ -63,6 +63,7 @@ class GoogleMapDisplay extends Component {
             return <Marker
                 key={index}
                 id={index}
+                icon= {filteredPlaces.icon}
                 title={filteredPlaces.title}
                 position={{ lat: filteredPlaces.lat, lng: filteredPlaces.lng }}
                 name={filteredPlaces.title}
@@ -121,9 +122,7 @@ class GoogleMapDisplay extends Component {
                             <p>{this.state.selectedPlace.text}</p>
                     </InfoWindow>
                 </Map>
-                {/* <Filter 
-                    searchCategory={this.state.searchCategory}
-                /> */}
+               
             </>
         );
     }
