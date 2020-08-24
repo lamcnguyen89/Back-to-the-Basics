@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import MapAPI from '../utils/MapAPI';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
-// import filterByClass from './filter';
 import SearchbyCategory from './SearchbyName';
+import InputData from './InputData';
+
 
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
 // Source 2: https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
@@ -16,7 +17,9 @@ class GoogleMapDisplay extends Component {
     // Simply put, the constructor aids in constructing things.
     // Source: https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components
     constructor(props) {
+
         super(props);
+
         this.state = {
             places: [{}],
 
@@ -43,7 +46,6 @@ class GoogleMapDisplay extends Component {
           },
         }  
     };
-
 
     // Mount API Map data and push it to the state:
     componentDidMount() {
@@ -100,31 +102,40 @@ class GoogleMapDisplay extends Component {
         }
     };
 
+    
+
     // Function used to render data onto the web page. Uses JSX
     render() {
         return (
             <>
-                <SearchbyCategory 
-                    searchbyName={this.state.searchbyName}
-                />
-               
-                <Map
-                    google={this.props.google}
-                    zoom={8}
-                    styles={mapStyles}
-                    initialCenter={{ lat: 27.6648, lng: -81.5158 }}
-                >
-                    {this.displayMarkers()}
-                    <InfoWindow 
-                        marker={this.state.activeMarker} 
-                        visible={this.state.showingInfoWindow} 
-                        onClose={this.onClose}>
-                            <h1>{this.state.selectedPlace.name}</h1>
-                            <h4>{this.state.selectedPlace.address}</h4>
-                            <p>{this.state.selectedPlace.text}</p>
-                    </InfoWindow>
-                </Map>
-               
+                <div>
+                  <SearchbyCategory 
+                      searchbyName={this.state.searchbyName}
+                  />
+                </div>
+
+                <div>
+                  <InputData />
+                </div>
+                
+               <div>
+                  <Map
+                        google={this.props.google}
+                        zoom={8}
+                        styles={mapStyles}
+                        initialCenter={{ lat: 27.6648, lng: -81.5158 }}
+                    >
+                        {this.displayMarkers()}
+                        <InfoWindow 
+                            marker={this.state.activeMarker} 
+                            visible={this.state.showingInfoWindow} 
+                            onClose={this.onClose}>
+                                <h1>{this.state.selectedPlace.name}</h1>
+                                <h4>{this.state.selectedPlace.address}</h4>
+                                <p>{this.state.selectedPlace.text}</p>
+                        </InfoWindow>
+                    </Map>
+               </div> 
             </>
         );
     }

@@ -20,7 +20,7 @@ router.post("/api/newplace", (req, res) => {
     const address = req.body.address;
     const lat = req.body.latitude;
     const lng = req.body.lng;
-    const icon = "something goes here";
+    const icon = req.body.icon;
     const description = req.body.description;
 
     const newPlace = new places({

@@ -1,9 +1,199 @@
-import React from 'react'
+import React, { Component } from 'react';
+import MapAPI from '../utils/MapAPI';
 
-function InputData() {
+// Source 1: https://github.com/beaucarnes/mern-exercise-tracker/blob/master/src/components/create-exercise.component.js
 
-    return(
+class InputData extends Component {
+    constructor(props) {
 
-    );
+        super(props);
+
+        this.onChangeTitle = this.onChangeTitle.bind(this);
+        this.onChangeAddress = this.onChangeAddress.bind(this);
+        this.onChangeLat = this.onChangeLat.bind(this);
+        this.onChangeLng = this.onChangeLng.bind(this);
+        this.onChangeDescription = this.onChangeDescription.bind(this);
+
+        this.state = {
+
+            title: "",
+            address: "",
+            lat: "",
+            lng: "",
+            icon: "/images/icons/eventSmaller.png",
+            description: "",
+        }
+    }
+
+     // Add methods which can be used to update the state properties:
+     onChangeTitle(e) {
+        this.setState({
+          title: e.target.value
+        });
+      }
+      onChangeAddress(e) {
+        this.setState({
+          address: e.target.value
+        });
+      }
+      onChangeLat(e) {
+        this.setState({
+          lat: e.target.value
+        });
+      }
+      onChangeLng(e) {
+        this.setState({
+          lng: e.target.value
+        });
+      }
+      onChangeDescription(e) {
+        this.setState({
+          description: e.target.value
+        });
+      }
+
+    // Method to handle the submit event of the form:
+    onSubmit(e) {
+        e.preventDefault();
+        const newWayPoint = {
+          title: this.state.title,
+          address: this.state.address,
+          lat: this.state.lat,
+          lng: this.state.lng,
+          icon: this.state.icon,
+          description: this.state.description
+        };
+      console.log(newWayPoint);
+      MapAPI.addPlace(newWayPoint)
+        .then(res => console.log(res.data));
+      }
+  
+    render() { 
+        return (  
+             <div> 
+                  <h3>Create New Location Waypoint</h3>
+                  <form onSubmit={this.onSubmit}>
+                    
+                    <div className="form-group"> 
+                      <label>Event Title: </label>
+                      <input  type="text"
+                          required
+                          className="form-control"
+                          value={this.state.title}
+                          onChange={this.onChangeTitle}
+                          />
+                    </div>
+                    <div className="form-group"> 
+                      <label>Event Address: </label>
+                      <input  type="text"
+                          required
+                          className="form-control"
+                          value={this.state.address}
+                          onChange={this.onChangeAddress}
+                          />
+                    </div>
+                    <div className="form-group"> 
+                      <label>Event Latitude: </label>
+                      <input  type="text"
+                          required
+                          className="form-control"
+                          value={this.state.latitude}
+                          onChange={this.onChangeLat}
+                          />
+                    </div>
+                    <div className="form-group"> 
+                      <label>Event Longitude: </label>
+                      <input  type="text"
+                          required
+                          className="form-control"
+                          value={this.state.longitude}
+                          onChange={this.onChangeLng}
+                          />
+                    </div>
+          
+                    <div className="form-group"> 
+                      <label>Event Description: </label>
+                      <input  type="text"
+                          required
+                          className="form-control"
+                          value={this.state.description}
+                          onChange={this.onChangeDescription}
+                          />
+                    </div>
+
+                    <div className="form-group">
+                      <input type="submit" value="Create new Location" className="btn btn-primary" />
+                    </div>
+                  </form>
+                </div>
+        );
+    }
 }
+ 
 export default InputData;
+
+// import React from 'react';
+
+// function InputData ({onSubmit, title, onChangeTitle, address, onChangeAddress, lat, onChangeLat, lng, onChangeLng, description, onChangeDescription}) {
+//     return (
+//         <div>
+//         <h3>Create New Location Waypoint</h3>
+//         <form onSubmit={onSubmit}>
+          
+//           <div className="form-group"> 
+//             <label>Event Title: </label>
+//             <input  type="text"
+//                 required
+//                 className="form-control"
+//                 value={title}
+//                 onChange={onChangeTitle}
+//                 />
+//           </div>
+//           <div className="form-group"> 
+//             <label>Event Address: </label>
+//             <input  type="text"
+//                 required
+//                 className="form-control"
+//                 value={address}
+//                 onChange={onChangeAddress}
+//                 />
+//           </div>
+//           <div className="form-group"> 
+//             <label>Event Latitude: </label>
+//             <input  type="text"
+//                 required
+//                 className="form-control"
+//                 value={lat}
+//                 onChange={onChangeLat}
+//                 />
+//           </div>
+//           <div className="form-group"> 
+//             <label>Event Longitude: </label>
+//             <input  type="text"
+//                 required
+//                 className="form-control"
+//                 value={lng}
+//                 onChange={onChangeLng}
+//                 />
+//           </div>
+
+//           <div className="form-group"> 
+//             <label>Event Description: </label>
+//             <input  type="text"
+//                 required
+//                 className="form-control"
+//                 value={description}
+//                 onChange={onChangeDescription}
+//                 />
+//           </div>
+
+//           <div className="form-group">
+//             <input type="submit" value="Create new Location" className="btn btn-primary" />
+//           </div>
+//         </form>
+//       </div>
+//     )
+// }
+
+// export default InputData;
+
