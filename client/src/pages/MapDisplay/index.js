@@ -144,8 +144,7 @@ export const displaymap = () => {
         </ul>
             </Message>
             <GoogleMaps />
-            
-            
+           
         </>
     
 
