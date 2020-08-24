@@ -160,7 +160,7 @@ export const displaymap = () => {
           }}
           >
                  Farming Change the Icon before due date
-                 <img classNameName = "icon"
+                 <img className = "icon"
                  src={statePark}
                  style={icon}
                  ></img></li>
