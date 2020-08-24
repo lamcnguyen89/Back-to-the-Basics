@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MapAPI from '../utils/MapAPI';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
-import filterByClass from './filter';
+// import filterByClass from './filter';
 import SearchbyCategory from './SearchbyName';
 
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
@@ -63,13 +63,17 @@ class GoogleMapDisplay extends Component {
             return <Marker
                 key={index}
                 id={index}
-                icon= {filteredPlaces.icon}
                 title={filteredPlaces.title}
                 position={{ lat: filteredPlaces.lat, lng: filteredPlaces.lng }}
                 name={filteredPlaces.title}
                 address={filteredPlaces.address}
                 text={filteredPlaces.contentString}
                 onClick={this.onMarkerClick}
+                icon= {{
+                  url: filteredPlaces.icon,
+                  anchor: new this.props.google.maps.Point(20,20),
+                  scaledSize: new this.props.google.maps.Size(20,20)
+                }}
             />
         })
     };
@@ -103,13 +107,11 @@ class GoogleMapDisplay extends Component {
                 <SearchbyCategory 
                     searchbyName={this.state.searchbyName}
                 />
-                <filterByClass 
-                
-                />
+               
                 <Map
                     google={this.props.google}
                     zoom={8}
-                    style={mapStyles}
+                    styles={mapStyles}
                     initialCenter={{ lat: 27.6648, lng: -81.5158 }}
                 >
                     {this.displayMarkers()}
@@ -126,16 +128,225 @@ class GoogleMapDisplay extends Component {
             </>
         );
     }
+
 }
 export default GoogleApiWrapper({
     apiKey: 'AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8'
 })(GoogleMapDisplay)
 
 // Styles the Google Map
-const mapStyles = {
-    width: '100%',
-    height: '100%',
-};
+ 
+  const mapStyles = [
+      {
+          width: '100%',
+          height: '100%'
+      },
+      {
+          elementType: 'geometry',
+          stylers: [
+              {
+                  color: '#242f3e'
+              }
+          ]
+      },
+      {
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#746855'
+              }
+          ]
+      },
+      {
+          elementType: 'labels.text.stroke',
+          stylers: [
+              {
+                  color: '#242f3e'
+              }
+          ]
+      },
+      {
+          featureType: 'administrative.land_parcel',
+          elementType: 'labels',
+          stylers: [
+              {
+                  visibility: 'off'
+              }
+          ]
+      },
+      {
+          featureType: 'administrative.locality',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#d59563'
+              }
+          ]
+      },
+      {
+          featureType: 'poi',
+          elementType: 'labels.text',
+          stylers: [
+              {
+                  visibility: 'off'
+              }
+          ]
+      },
+      {
+          featureType: 'poi',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#d59563'
+              }
+          ]
+      },
+      {
+          featureType: 'poi.business',
+          stylers: [
+              {
+                  visibility: 'off'
+              }
+          ]
+      },
+      {
+          featureType: 'poi.park',
+          elementType: 'geometry',
+          stylers: [
+              {
+                  color: '#263c3f'
+              }
+          ]
+      },
+      {
+          featureType: 'poi.park',
+          elementType: 'labels.text',
+          stylers: [
+              {
+                  visibility: 'off'
+              }
+          ]
+      },
+      {
+          featureType: 'poi.park',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#6b9a76'
+              }
+          ]
+      },
+      {
+          featureType: 'road',
+          elementType: 'geometry',
+          stylers: [
+              {
+                  color: '#38414e'
+              }
+          ]
+      },
+      {
+          featureType: 'road',
+          elementType: 'geometry.stroke',
+          stylers: [
+              {
+                  color: '#212a37'
+              }
+          ]
+      },
+      {
+          featureType: 'road',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#9ca5b3'
+              }
+          ]
+      },
+      {
+          featureType: 'road.highway',
+          elementType: 'geometry',
+          stylers: [
+              {
+                  color: '#746855'
+              }
+          ]
+      },
+      {
+          featureType: 'road.highway',
+          elementType: 'geometry.stroke',
+          stylers: [
+              {
+                  color: '#1f2835'
+              }
+          ]
+      },
+      {
+          featureType: 'road.highway',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#f3d19c'
+              }
+          ]
+      },
+      {
+          featureType: 'road.local',
+          elementType: 'labels',
+          stylers: [
+              {
+                  visibility: 'off'
+              }
+          ]
+      },
+      {
+          featureType: 'transit',
+          elementType: 'geometry',
+          stylers: [
+              {
+                  color: '#2f3948'
+              }
+          ]
+      },
+      {
+          featureType: 'transit.station',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#d59563'
+              }
+          ]
+      },
+      {
+          featureType: 'water',
+          elementType: 'geometry',
+          stylers: [
+              {
+                  color: '#17263c'
+              }
+          ]
+      },
+      {
+          featureType: 'water',
+          elementType: 'labels.text.fill',
+          stylers: [
+              {
+                  color: '#515c6d'
+              }
+          ]
+      },
+      {
+          featureType: 'water',
+          elementType: 'labels.text.stroke',
+          stylers: [
+              {
+                  color: '#17263c'
+              }
+          ]
+      }
+  ]
+
+
 
   
 
