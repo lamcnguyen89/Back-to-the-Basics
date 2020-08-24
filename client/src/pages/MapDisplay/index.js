@@ -36,15 +36,25 @@ export const displaymap = () => {
                 
                 <Header size="huge"
                 style={{
-                    color:"#E4A448",
+                    color:"#F06C25",
                     fontSize:"50pt",
                     textDecoration: "underline",
                 }}
                 > Back to the Basics 
                 
                 </Header>
-                <p>Make the outdoors great again!</p>
-                <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
+                <p
+                style={{
+                    color:"#F06C25",
+                    fontSize:"30pt",
+                }}
+                >Make the outdoors great again!</p>
+                <p
+                style={{
+                    color:"#F06C25",
+                    fontSize:"22pt",
+                }}
+                >...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
 
       
         <h1 className="card-title"
@@ -137,6 +147,19 @@ export const displaymap = () => {
           }}
           >
                  State Parks
+                 <img classNameName = "icon"
+                 src={statePark}
+                 style={icon}
+                 ></img></li>
+          <li
+          style={{
+            listStyleType: "none",
+            color:"#F06C25",
+            fontSize:"20pt",
+          
+          }}
+          >
+                 Farming Change the Icon before due date
                  <img classNameName = "icon"
                  src={statePark}
                  style={icon}
