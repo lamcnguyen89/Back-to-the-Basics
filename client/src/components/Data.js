@@ -134,7 +134,7 @@ export default GoogleApiWrapper({
 
 // Styles the Google Map
 const mapStyles = {
-    width: '70%',
+    width: '100%',
     height: '100%',
 };
 
