@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import LoginForm from "../../components/LoginForm";
 import { loginUser } from "../../actions/authActions";
 import { Link } from "react-router-dom";
+// import "../styles.css";
 
 
 const Login = (props) => {
@@ -30,13 +31,21 @@ const Login = (props) => {
 
     return (
         <div className="form-container">
-            <Header as='h2' secondary="true" textAlign='center'>
-                Login to your account
+            <Header as='h2' secondary="true" textAlign='center'
+            style={{
+                listStyleType: "none",
+                color:"#49B0F8",
+                fontSize:"30pt",
+                // textDecoration: "underline",
+              }}
+            >
+                Enter to Find Your Adventure
                 </Header>
             <LoginForm
                 renderMessage={renderFormMessage}
                 buttonText="Login"
                 onSubmit={onFormSubmit}
+                
             />
         </div>
     )
