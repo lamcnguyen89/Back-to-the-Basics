@@ -19,7 +19,11 @@ width: "18rem",
 function Legend() {
     return (
     <div className="card">
-      <div className="card-body">
+      <div className="card-body"
+      style={{
+        backgroundColor:"#909497",
+      }}
+      >
         <h5 className="card-title">Legend</h5>
         <ul>
           <li>
