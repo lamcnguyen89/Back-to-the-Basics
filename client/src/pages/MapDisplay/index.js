@@ -90,7 +90,7 @@ export const displaymap = () => {
           >
             Marijuana Dispensary
             <img
-              classNameName="icon"
+              className="icon"
               src={weed}
               style={icon}
             ></img>
@@ -104,7 +104,7 @@ export const displaymap = () => {
           >
             Firearm Shops
             <img
-              classNameName="icon"
+              className="icon"
               src={gun}
               style={icon}
             ></img>
@@ -119,7 +119,7 @@ export const displaymap = () => {
           >
             National Parks
             <img
-              classNameName="icon"
+              className="icon"
               src={nationalPark}
               style={icon}
             ></img>
@@ -134,7 +134,7 @@ export const displaymap = () => {
           >
             Outdoor Stores
             <img
-              classNameName="icon"
+              className="icon"
               src={shopping}
               style={icon}
             ></img>
@@ -148,7 +148,7 @@ export const displaymap = () => {
           }}
           >
                  State Parks
-                 <img classNameName = "icon"
+                 <img className = "icon"
                  src={statePark}
                  style={icon}
                  ></img></li>
