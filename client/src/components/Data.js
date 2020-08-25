@@ -113,11 +113,10 @@ class GoogleMapDisplay extends Component {
                       searchbyName={this.state.searchbyName}
                   />
                 </div>
-
                 <div>
                   <InputData />
                 </div>
-                
+
                <div>
                   <Map
                         google={this.props.google}
@@ -136,6 +135,8 @@ class GoogleMapDisplay extends Component {
                         </InfoWindow>
                     </Map>
                </div> 
+
+               
             </>
         );
     }
@@ -148,6 +149,7 @@ export default GoogleApiWrapper({
 // Styles the Google Map
  
   const mapStyles = [
+    
     {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
     {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
     {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
