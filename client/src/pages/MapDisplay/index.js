@@ -10,6 +10,7 @@ import gun from "../../images/icons/gun.jpg";
 import nationalPark from "../../images/icons/nationalPark.png";
 import shopping from "../../images/icons/shopping.jpg";
 import statePark from "../../images/icons/statePark.jpg";
+import farm from "../../images/icons/farm.png";
 
 // styles
 const icon = {
@@ -60,7 +61,7 @@ export const displaymap = () => {
         <h1 className="card-title"
         style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"40pt",
             textDecoration: "underline",
           }}
@@ -69,7 +70,7 @@ export const displaymap = () => {
           <li 
           style={{
             listStyleType: "none",
-            color: "#F06C25",
+            color: "#FE2C0F",
             fontSize:"20pt",
           }}
           >
@@ -83,7 +84,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE970F",
             fontSize:"20pt",
           }}
           >
@@ -97,7 +98,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           }}
           >
@@ -111,7 +112,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
@@ -126,7 +127,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
@@ -141,7 +142,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
@@ -154,14 +155,14 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
           >
-                 Farming Change the Icon before due date
-                 <img className = "icon"
-                 src={statePark}
+                 Farming
+                 <img classNameName = "icon"
+                 src={farm}
                  style={icon}
                  ></img></li>
         </ul>
