@@ -10,6 +10,7 @@ class InputData extends Component {
 
         this.onChangeTitle = this.onChangeTitle.bind(this);
         this.onChangeAddress = this.onChangeAddress.bind(this);
+        this.onChangePhone = this.onChangePhone.bind(this);
         this.onChangeLat = this.onChangeLat.bind(this);
         this.onChangeLng = this.onChangeLng.bind(this);
         this.onChangeDescription = this.onChangeDescription.bind(this);
@@ -19,10 +20,12 @@ class InputData extends Component {
 
             title: "",
             address: "",
+            phone: "",
             lat: "",
             lng: "",
             icon: "/images/icons/eventSmaller.png",
             description: "",
+            category: "event"
         }
     }
 
@@ -35,6 +38,11 @@ class InputData extends Component {
       onChangeAddress(e) {
         this.setState({
           address: e.target.value
+        });
+      }
+      onChangePhone(e) {
+        this.setState({
+          phone: e.target.value
         });
       }
       onChangeLat(e) {
@@ -56,14 +64,17 @@ class InputData extends Component {
     // Method to handle the submit event of the form:
     onSubmit(e) {
         console.log("Onsubmit fired");
+        window.location.reload(false);
         e.preventDefault();
         const newWayPoint = {
           title: this.state.title,
           address: this.state.address,
+          phone: this.state.phone,
           lat: this.state.lat,
           lng: this.state.lng,
           icon: this.state.icon,
-          contentString: this.state.description
+          contentString: this.state.description,
+          category: this.state.category
         };
       MapAPI.addPlace(newWayPoint)
         .then(res => console.log(res.data));
@@ -72,7 +83,6 @@ class InputData extends Component {
     render() { 
         return (  
              <div> 
-                <h3>{this.state.title}</h3>
                   <h3>Create New Location Waypoint</h3>
                   <form onSubmit={this.onSubmit}>
                     
@@ -92,6 +102,15 @@ class InputData extends Component {
                           className="form-control"
                           value={this.state.address}
                           onChange={this.onChangeAddress}
+                          />
+                    </div>
+                    <div className="form-group"> 
+                      <label>Event Phone Number: </label>
+                      <input  type="text"
+                          required
+                          className="form-control"
+                          value={this.state.phone}
+                          onChange={this.onChangePhone}
                           />
                     </div>
                     <div className="form-group"> 

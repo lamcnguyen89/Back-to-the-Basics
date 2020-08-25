@@ -18,18 +18,22 @@ router.get("/api/places", (req, res) => {
 router.post("/api/newplace", (req, res) => {
     const title = req.body.title;
     const address = req.body.address;
+    const phone = req.body.phone;
     const lat = req.body.lat;
     const lng = req.body.lng;
     const icon = req.body.icon;
     const contentString = req.body.contentString;
+    const category = req.body.category;
 
     const newPlace = new places({
         title,
         address,
+        phone,
         lat,
         lng,
         icon,
-        contentString
+        contentString,
+        category
     });
     console.log(newPlace);
     newPlace.save()
