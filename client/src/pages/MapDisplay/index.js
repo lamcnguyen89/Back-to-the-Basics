@@ -61,7 +61,7 @@ export const displaymap = () => {
         <h1 className="card-title"
         style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"40pt",
             textDecoration: "underline",
           }}
@@ -70,7 +70,7 @@ export const displaymap = () => {
           <li 
           style={{
             listStyleType: "none",
-            color: "#F06C25",
+            color: "#FE2C0F",
             fontSize:"20pt",
           }}
           >
@@ -84,7 +84,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE970F",
             fontSize:"20pt",
           }}
           >
@@ -98,7 +98,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           }}
           >
@@ -112,7 +112,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
@@ -127,7 +127,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
@@ -142,7 +142,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
@@ -155,7 +155,7 @@ export const displaymap = () => {
           <li
           style={{
             listStyleType: "none",
-            color:"#F06C25",
+            color:"#FE2C0F",
             fontSize:"20pt",
           
           }}
