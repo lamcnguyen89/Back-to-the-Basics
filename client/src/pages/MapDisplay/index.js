@@ -10,6 +10,7 @@ import gun from "../../images/icons/gun.jpg";
 import nationalPark from "../../images/icons/nationalPark.png";
 import shopping from "../../images/icons/shopping.jpg";
 import statePark from "../../images/icons/statePark.jpg";
+import farm from "../../images/icons/farm.png";
 
 // styles
 const icon = {
@@ -159,9 +160,9 @@ export const displaymap = () => {
           
           }}
           >
-                 Farming Change the Icon before due date
+                 Farming
                  <img classNameName = "icon"
-                 src={statePark}
+                 src={farm}
                  style={icon}
                  ></img></li>
         </ul>
