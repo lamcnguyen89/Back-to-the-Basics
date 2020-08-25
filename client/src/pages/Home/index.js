@@ -42,7 +42,7 @@ export const Home = () => {
                         fontSize:"45pt",
                         fontFamily:"arial",
                     }}
-                >Back to the Basics
+                >Back to the Basics Florida
                 <br />
                 <img
                 className="ab"
