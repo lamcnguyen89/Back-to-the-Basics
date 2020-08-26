@@ -1,4 +1,7 @@
 import React from 'react';
+import Row from 'react-bootstrap/row';
+import Col from 'react-bootstrap/col';
+import Container from 'react-bootstrap/Container';
 import { Header, Message } from "semantic-ui-react";
 import GoogleMaps from '../../components/Data';
 import Legend from '../../components/legend';
@@ -20,6 +23,8 @@ const icon = {
 const card = {
 width: "18rem",
 }
+
+
 export const displaymap = () => {
     return (
         <>
@@ -58,7 +63,7 @@ export const displaymap = () => {
                 >...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
 
       
-        <h1 className="card-title"
+        {/* <h1 className="card-title"
         style={{
             listStyleType: "none",
             color:"#FE2C0F",
@@ -165,9 +170,15 @@ export const displaymap = () => {
                  src={farm}
                  style={icon}
                  ></img></li>
-        </ul>
+        </ul> */}
             </Message>
-            <GoogleMaps />
+            <Container fluid>
+  <Row>
+    <Col xs={9}><GoogleMaps /></Col>
+    <Col><Legend /></Col>
+  </Row>
+</Container>
+            
            
         </>
     

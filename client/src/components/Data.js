@@ -114,7 +114,7 @@ class GoogleMapDisplay extends Component {
                   />
                 </div>
                 <div>
-                  <InputData />
+                  {/* <InputData /> */}
                 </div>
 
                <div>
