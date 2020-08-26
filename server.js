@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === "production") {
 };
 
 // connect to Mongo DB 
-mongoose.connect(config.MONGO_URI || "mongodb://lamnguyen:nguyen05041989@ds151997.mlab.com:51997/heroku_fqgbgzs2", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: true })
+mongoose.connect(config.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: true })
     .then(() => console.log(`Successfully loaded MongoDB`))
     .catch(err => console.log(err));
 
