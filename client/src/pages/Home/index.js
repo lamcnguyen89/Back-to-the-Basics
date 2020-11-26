@@ -29,19 +29,10 @@ export const Home = () => {
     }
 
     return (
-        <div>
-            <Message className="message-container" size="huge" secondary="true"
-            style={{
-                backgroundColor: "green",
-            }}
-            >
+        <div className="message">
+            <Message className="message-container messageStyle" size="huge" secondary="true">
                 <Header size="huge" 
-                    style={{
-                        backgroundColor:"green",
-                        color:"white",
-                        fontSize:"45pt",
-                        fontFamily:"arial",
-                    }}
+
                 >Back to the Basics Florida
                 <br />
                 <img
@@ -51,20 +42,8 @@ export const Home = () => {
                 ></img>
                 </Header>
                 
-                <p 
-                style={{ 
-                    marginBottom: "5px",
-                    backgroundColor:"green",
-                    color:"white",
-                    fontSize:"20pt",
-            }}>Make the outdoors great again!</p>
-                <p 
-                style={{ 
-                    margin: "5px 0 25px",
-                    backgroundColor:"green",
-                    color:"white",
-                    fontSize:"20pt"
-                    }}>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
+                <p >Make the outdoors great again!</p>
+                <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
                 <Link to="/login">
                     {showLoginBtn()}
                 </Link>
