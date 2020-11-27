@@ -4,11 +4,11 @@ import { Link, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
 import forest from "../../../src/images/forest.jpeg";
 
-const ab = {
-    width: "55%",
-    height: "55%",
-    background: "Red",
-}
+// const ab = {
+//     width: "55%",
+//     height: "55%",
+//     background: "Red",
+// }
 
 
 export const Home = () => {
@@ -30,8 +30,8 @@ export const Home = () => {
 
     return (
         <div className="message">
-            <Message className="message-container messageStyle" size="huge" secondary="true">
-                <Header size="huge" 
+            <Message className="message-container" size="huge" secondary="true">
+                {/* <Header size="huge" 
 
                 >Back to the Basics Florida
                 <br />
@@ -41,7 +41,7 @@ export const Home = () => {
                 style={ab}
                 ></img>
                 </Header>
-                
+                 */}
                 <p >Make the outdoors great again!</p>
                 <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
                 <Link to="/login">

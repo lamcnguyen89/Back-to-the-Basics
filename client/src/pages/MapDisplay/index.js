@@ -23,17 +23,7 @@ width: "18rem",
 export const displaymap = () => {
     return (
         <>
-            <Message className="message-container" size="huge" secondary="true"
-            style={{
-                backgroundColor:"#909497",
-                color:"white",
-                backgroundImage:`url(${Sunset})`,
-                maxWidth: "100%",
-    height: "auto",
-    backgroundSize: "cover",
-
-            }}
-            >
+            <Message className="message-container" size="huge" secondary="true">
                 
                 <Header size="huge"
                 style={{
@@ -58,14 +48,7 @@ export const displaymap = () => {
                 >...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
 
       
-        <h1 className="card-title"
-        style={{
-            listStyleType: "none",
-            color:"#FE2C0F",
-            fontSize:"40pt",
-            textDecoration: "underline",
-          }}
-        >Legend</h1>
+        <h1 className="card-title">Legend</h1>
         <ul>
           <li 
           style={{
