@@ -22,15 +22,10 @@ class GoogleMapDisplay extends Component {
 
         this.state = {
             places: [{}],
-
             filteredPlaces: [{}],
-
             showingInfoWindow: false, // Hides or the shows the infoWindow
-
             activeMarker: {}, // Shows the active marker upon click
-
             selectedPlace: {}, // Shows the infoWindow to the selected place upon a marker
-
             // function to handle a search by category
             searchbyName: event => {
                 console.log(event.target.value);
@@ -108,16 +103,15 @@ class GoogleMapDisplay extends Component {
     render() {
         return (
             <>
-                <div>
-                  <SearchbyCategory 
-                      searchbyName={this.state.searchbyName}
-                  />
-                </div>
-                <div>
-                  <InputData />
-                </div>
-
-               <div>
+                
+               <SearchbyCategory
+                  className="form" 
+                  searchbyName={this.state.searchbyName}
+               />
+               <InputData
+                  className="form"
+               />
+               <div className="mapContainer">
                   <Map
                         google={this.props.google}
                         zoom={8}
