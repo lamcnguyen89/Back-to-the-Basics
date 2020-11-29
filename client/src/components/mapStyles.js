@@ -1,3 +1,6 @@
+// Object Containing the styling components for the Google Map that will be displayed on this web application.
+
+
 const mapStyles =
 
 [

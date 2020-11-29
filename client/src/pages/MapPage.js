@@ -99,21 +99,36 @@ class GoogleMap extends Component {
     // Function used to render data onto the web page. Uses JSX
     render() {
         return (
-            <>
-                <Message className="message-container" size="huge" secondary="true">
-                  <Header size="huge"> Back to the Basics Florida</Header>
-                  <p>Make the outdoors great again!</p>
-                  <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
-               </Message>                    
-               <Legend /> 
-               <SearchbyName
-                  className="form" 
-                  searchbyName={this.state.searchbyName}
-               />
-               <SearchbyCategory
-                  className="form"
-               />
-               <div className="mapContainer">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <Message className="message-container" size="huge" secondary="true">
+                            <Header size="huge"> Back to the Basics Florida</Header>
+                            <p>Make the outdoors great again!</p>
+                            <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
+                        </Message> 
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <Legend /> 
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-4">
+                        <SearchbyName
+                            className="form" 
+                            searchbyName={this.state.searchbyName}
+                        />
+                    </div>
+                    <div className="col-8">
+                        <SearchbyCategory
+                            className="form"
+                        />
+                    </div>
+                </div>
+               <div className="row">
+
                   <Map
                         google={this.props.google}
                         zoom={8}
@@ -133,7 +148,7 @@ class GoogleMap extends Component {
                </div> 
 
                
-            </>
+            </div>
         );
     }
 
