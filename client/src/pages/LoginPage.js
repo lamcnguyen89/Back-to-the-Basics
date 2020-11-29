@@ -1,12 +1,10 @@
 
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Header } from "semantic-ui-react";
 import { useSelector, useDispatch } from "react-redux";
-import LoginForm from "../../components/LoginForm";
-import { loginUser } from "../../actions/authActions";
-import { Link } from "react-router-dom";
-// import "../styles.css";
-
+import LoginForm from "../components/LoginForm";
+import { loginUser } from "../actions/authActions";
 
 const Login = (props) => {
     // access to the isAuthenticated property from the auth reducer state

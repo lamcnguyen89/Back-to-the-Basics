@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react'
 import { Router, Route, Switch } from "react-router-dom";
-import history from "../history";
+import history from "./history";
 import { useDispatch } from "react-redux";
-import { loadUser } from "../actions/authActions";
-import NavBar from "./NavBar";
-import Home from "../pages/Home";
-import UserDashboard from "../pages/UserDashboard";
-import MapDisplay from "../pages/MapDisplay";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
-import PrivateRoute from "./PrivateRoute";
-import NoMatch from "../pages/NoMatch";
+import { loadUser } from "./actions/authActions";
+import NavBar from "./components/NavBar";
+import Home from "./pages/HomePage";
+import UserDashboard from "./pages/UserDashboardPage";
+import MapDisplay from "./pages/MapPage";
+import Login from "./pages/LoginPage";
+import Register from "./pages/RegisterPage";
+import PrivateRoute from "./components/PrivateRoute";
+import NoMatch from "./pages/NoMatchPage";
 
 export const App = () => {
 

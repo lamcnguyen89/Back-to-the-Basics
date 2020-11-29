@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { Header, Message } from "semantic-ui-react";
 import MapAPI from '../utils/MapAPI';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
-import SearchbyCategory from './SearchbyName';
-import InputData from './InputData';
-
+import SearchbyName from './SearchbyName';
+import SearchbyCategory from './SearchByCategory';
+import Legend from './Legend';
+import mapStyles from './mapStyles'; // Styling for the Google Map
 
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
 // Source 2: https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
@@ -103,12 +105,17 @@ class GoogleMapDisplay extends Component {
     render() {
         return (
             <>
-                
-               <SearchbyCategory
+                <Message className="message-container" size="huge" secondary="true">
+                  <Header size="huge"> Back to the Basics Florida</Header>
+                  <p>Make the outdoors great again!</p>
+                  <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
+               </Message>                    
+               <Legend /> 
+               <SearchbyName
                   className="form" 
                   searchbyName={this.state.searchbyName}
                />
-               <InputData
+               <SearchbyCategory
                   className="form"
                />
                <div className="mapContainer">
@@ -140,119 +147,7 @@ export default GoogleApiWrapper({
     apiKey: 'AIzaSyC3hzTZI75vAi2NaV6zk_9Df1-pe-WAEm8'
 })(GoogleMapDisplay)
 
-// Styles the Google Map
- 
-  const mapStyles = [
-    
-    {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
-    {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
-    {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
-    {
-      featureType: 'administrative',
-      elementType: 'geometry.stroke',
-      stylers: [{color: '#c9b2a6'}]
-    },
-    {
-      featureType: 'administrative.land_parcel',
-      elementType: 'geometry.stroke',
-      stylers: [{color: '#dcd2be'}]
-    },
-    {
-      featureType: 'administrative.land_parcel',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#ae9e90'}]
-    },
-    {
-      featureType: 'landscape.natural',
-      elementType: 'geometry',
-      stylers: [{color: '#dfd2ae'}]
-    },
-    {
-      featureType: 'poi',
-      elementType: 'geometry',
-      stylers: [{color: '#dfd2ae'}]
-    },
-    {
-      featureType: 'poi',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#93817c'}]
-    },
-    {
-      featureType: 'poi.park',
-      elementType: 'geometry.fill',
-      stylers: [{color: '#a5b076'}]
-    },
-    {
-      featureType: 'poi.park',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#447530'}]
-    },
-    {
-      featureType: 'road',
-      elementType: 'geometry',
-      stylers: [{color: '#f5f1e6'}]
-    },
-    {
-      featureType: 'road.arterial',
-      elementType: 'geometry',
-      stylers: [{color: '#fdfcf8'}]
-    },
-    {
-      featureType: 'road.highway',
-      elementType: 'geometry',
-      stylers: [{color: '#f8c967'}]
-    },
-    {
-      featureType: 'road.highway',
-      elementType: 'geometry.stroke',
-      stylers: [{color: '#e9bc62'}]
-    },
-    {
-      featureType: 'road.highway.controlled_access',
-      elementType: 'geometry',
-      stylers: [{color: '#e98d58'}]
-    },
-    {
-      featureType: 'road.highway.controlled_access',
-      elementType: 'geometry.stroke',
-      stylers: [{color: '#db8555'}]
-    },
-    {
-      featureType: 'road.local',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#806b63'}]
-    },
-    {
-      featureType: 'transit.line',
-      elementType: 'geometry',
-      stylers: [{color: '#dfd2ae'}]
-    },
-    {
-      featureType: 'transit.line',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#8f7d77'}]
-    },
-    {
-      featureType: 'transit.line',
-      elementType: 'labels.text.stroke',
-      stylers: [{color: '#ebe3cd'}]
-    },
-    {
-      featureType: 'transit.station',
-      elementType: 'geometry',
-      stylers: [{color: '#dfd2ae'}]
-    },
-    {
-      featureType: 'water',
-      elementType: 'geometry.fill',
-      stylers: [{color: '#b9d3c2'}]
-    },
-    {
-      featureType: 'water',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#92998d'}]
-    }
-  ]
+
 
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { Header, Message, Button, Icon } from "semantic-ui-react";
 import { Link, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
-import forest from "../../../src/images/forest.jpeg";
+import forest from "../../src/images/forest.jpeg";
 
 // const ab = {
 //     width: "55%",
