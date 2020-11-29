@@ -35,3 +35,11 @@ body {
     /* background-image: url(./images/Background_Image.png); */
 
 }
+
+/* GoogleMap Container Styling */
+.mapContainer {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    width: 500px;
+    height:400px;
+}

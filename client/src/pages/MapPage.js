@@ -127,25 +127,26 @@ class GoogleMap extends Component {
                         />
                     </div>
                 </div>
-               <div className="row">
-
-                  <Map
-                        google={this.props.google}
-                        zoom={8}
-                        styles={mapStyles}
-                        initialCenter={{ lat: 27.6648, lng: -81.5158 }}
-                    >
-                        {this.displayMarkers()}
-                        <InfoWindow 
-                            marker={this.state.activeMarker} 
-                            visible={this.state.showingInfoWindow} 
-                            onClose={this.onClose}>
-                                <h1>{this.state.selectedPlace.name}</h1>
-                                <h4>{this.state.selectedPlace.address}</h4>
-                                <p>{this.state.selectedPlace.text}</p>
-                        </InfoWindow>
-                    </Map>
-               </div> 
+                <div className="row">
+                   <div className="col-12" style={{ width: "100vw", height: "100vh" }}>
+                        <Map
+                                google={this.props.google}
+                                zoom={8}
+                                styles={mapStyles}
+                                initialCenter={{ lat: 27.6648, lng: -81.5158 }}
+                            >
+                                {this.displayMarkers()}
+                                <InfoWindow 
+                                    marker={this.state.activeMarker} 
+                                    visible={this.state.showingInfoWindow} 
+                                    onClose={this.onClose}>
+                                        <h1>{this.state.selectedPlace.name}</h1>
+                                        <h4>{this.state.selectedPlace.address}</h4>
+                                        <p>{this.state.selectedPlace.text}</p>
+                                </InfoWindow>
+                        </Map>
+                   </div>
+                </div>
 
                
             </div>
