@@ -3,11 +3,7 @@ import React from 'react';
 function searchBar ({searchbyName}) {
     return (
         <div className="searchbox">
-            <form className="form-inline"
-            style={{
-                background:"#F8F9F9",
-            }}
-            >
+            <form className="form-inline">
                 <input
                 className="form-control mr-sm-2"
                 type="search"

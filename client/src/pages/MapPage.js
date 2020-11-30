@@ -111,7 +111,7 @@ class GoogleMap extends Component {
                 </div>
 
                 <div className="row">
-                   <div className="col-6" style={{ width: "100vw", height: "100vh" }}>
+                   <div className="col-8" style={{ width: "100vw", height: "100vh" }}>
                         <Map
                                 google={this.props.google}
                                 zoom={8}
@@ -129,7 +129,7 @@ class GoogleMap extends Component {
                                 </InfoWindow>
                         </Map>
                    </div>
-                   <div className="col-6">
+                   <div className="col-4">
                        <div className="row">
                             <div className="col-12">
                                 <Legend /> 

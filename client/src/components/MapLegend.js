@@ -19,22 +19,10 @@ width: "18rem",
 function Legend() {
     return (
     <div className="card">
-      <div className="card-body"
-      style={{
-        backgroundColor:"#909497",
-        textAlign:"center",
-        color:"white"
-      }}
-      >
+      <div className="card-body">
         <h1 className="card-title">Legend</h1>
         <ul>
-          <li 
-          style={{
-            listStyleType: "none",
-            color: "white",
-            fontSize:"20pt",
-          }}
-          >
+          <li>
             Beaches
             <img
               className="icon"
@@ -42,13 +30,7 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li
-          style={{
-            listStyleType: "none",
-            color:"white",
-            fontSize:"20pt",
-          }}
-          >
+          <li>
             Marijuana Dispensary
             <img
               className="icon"
@@ -56,13 +38,7 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li
-          style={{
-            listStyleType: "none",
-            color:"white",
-            fontSize:"20pt",
-          }}
-          >
+          <li>
             Firearm Shops
             <img
               className="icon"
@@ -70,14 +46,7 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li
-          style={{
-            listStyleType: "none",
-            color:"white",
-            fontSize:"20pt",
-          
-          }}
-          >
+          <li>
             National Parks
             <img
               className="icon"
@@ -85,14 +54,7 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li
-          style={{
-            listStyleType: "none",
-            color:"white",
-            fontSize:"20pt",
-          
-          }}
-          >
+          <li>
             Outdoor Stores
             <img
               className="icon"
@@ -100,19 +62,13 @@ function Legend() {
               style={icon}
             ></img>
           </li>
-          <li
-          style={{
-            listStyleType: "none",
-            color:"white",
-            fontSize:"20pt",
-          
-          }}
-          >
+          <li>
                  State Parks
                  <img className = "icon"
                  src={statePark}
                  style={icon}
-                 ></img></li>
+                 ></img>
+          </li>
         </ul>
       </div>
     </div>

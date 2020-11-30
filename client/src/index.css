@@ -43,3 +43,11 @@ body {
     width: 500px;
     height:400px;
 }
+
+.card {
+    background-color:rgba(0,0,0,0);
+}
+
+.searchbox{
+    background-color: rgba(0,0,0,0);
+}
