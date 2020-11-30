@@ -109,26 +109,9 @@ class GoogleMap extends Component {
                         </Message> 
                     </div>
                 </div>
+
                 <div className="row">
-                    <div className="col-12">
-                        <Legend /> 
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-4">
-                        <SearchbyName
-                            className="form" 
-                            searchbyName={this.state.searchbyName}
-                        />
-                    </div>
-                    <div className="col-8">
-                        <SearchbyCategory
-                            className="form"
-                        />
-                    </div>
-                </div>
-                <div className="row">
-                   <div className="col-12" style={{ width: "100vw", height: "100vh" }}>
+                   <div className="col-6" style={{ width: "100vw", height: "100vh" }}>
                         <Map
                                 google={this.props.google}
                                 zoom={8}
@@ -145,6 +128,28 @@ class GoogleMap extends Component {
                                         <p>{this.state.selectedPlace.text}</p>
                                 </InfoWindow>
                         </Map>
+                   </div>
+                   <div className="col-6">
+                       <div className="row">
+                            <div className="col-12">
+                                <Legend /> 
+                            </div>
+                       </div>
+                       <div className="row">
+                            <div className="col-12">
+                                <SearchbyName
+                                    className="form" 
+                                    searchbyName={this.state.searchbyName}
+                                />    
+                            </div>
+                       </div>
+                       <div className="row">
+                            <div className="col-12">
+                                <SearchbyCategory
+                                className="form"
+                                />      
+                            </div>
+                       </div>
                    </div>
                 </div>
 
