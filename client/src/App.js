@@ -11,6 +11,7 @@ import Login from "./pages/LoginPage";
 import Register from "./pages/RegisterPage";
 import PrivateRoute from "./components/PrivateRoute";
 import NoMatch from "./pages/NoMatchPage";
+import BlogPost from "./pages/BlogPostPage";
 
 export const App = () => {
 
@@ -27,6 +28,7 @@ export const App = () => {
                 
                 <Switch>
                     <Route path="/" exact component={Home} />
+                    <Route path="/post/:slug" component={BlogPost} />
                     <Route path="/login" component={Login} />
                     <Route path="/register" component={Register} />
                     <PrivateRoute path="/dashboard" component={UserDashboard} />

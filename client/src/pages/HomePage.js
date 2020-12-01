@@ -2,20 +2,13 @@ import React from 'react'
 import { Header, Message, Button, Icon } from "semantic-ui-react";
 import { Link, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Layout from '../components/Layout';
 import RecentPosts from '../components/RecentPosts';
+import Layout from '../components/Layout';
 
 
- const Home = () => {
+export const Home = () => {
     // access to the isAuthenticated property from the auth reducer state
     const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
-    const galleryHeight = 200;
-    const galleryStyle = {
-        height: galleryHeight+'px',
-        overflow: 'hidden'
-    }
-    const sideImageHeight = galleryHeight / 3;
-    const imgAr = blogData.data.map(post => post.blogImage)
 
     const showLoginBtn = () => {
         if (!isAuthenticated) {
@@ -37,17 +30,22 @@ import RecentPosts from '../components/RecentPosts';
                     <Header size="huge"> 
                         <h1>Back to the Basics Florida</h1>
                     </Header>
+
                     <p >Make the outdoors great again!</p>
                     <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
                     <Link to="/login">
                         {showLoginBtn()}
-                    </Link> 
+                    </Link>
+                    
                 </Message>
+
+
             </div>
-            {/* <Layout>
+            <Layout>
                 <RecentPosts style={{width: '70%'}}/>
-            </Layout> */}
+            </Layout>
         </>
+
     )
 };
 

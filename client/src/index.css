@@ -17,7 +17,7 @@ p {
     color: white;
 }
 
-h1, h2, h3 {
+h1 {
     color: white;
 }
 
@@ -51,18 +51,6 @@ body {
     height:400px;
 }
 
-.card-body {
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .cardStyles {
-    background-color: rgba(39, 22, 22, 0.4);
-    text-align: center;
-    margin: 1rem;
-  }
-
 .card {
     background-color:rgba(39, 22, 22, 0.4);
     color: white;
@@ -87,4 +75,3 @@ body {
     height: 20px;
     width: 20px;
 }
-

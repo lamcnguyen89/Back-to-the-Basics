@@ -16,38 +16,38 @@ function Legend() {
 
         <h1 className="card-title">Legend</h1>
 
-        <ul class="list-group">
-          <li class="list-group-item">
+        <ul className="list-group">
+          <li className="list-group-item">
             Beaches
-            <img src={beach} class="legendIcon" alt="beach icon" />
+            <img src={beach} className="legendIcon" alt="beach icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             Dispenseries
-            <img src={dispensary} class="legendIcon" alt="dispensary icon" />
+            <img src={dispensary} className="legendIcon" alt="dispensary icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             Gun Stores
-            <img src={gun} class="legendIcon" alt="gun store icon" />
+            <img src={gun} className="legendIcon" alt="gun store icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             Outdoor Stores
-            <img src={shopping} class="legendIcon" alt="outdoor store icon" />
+            <img src={shopping} className="legendIcon" alt="outdoor store icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             National Parks
-            <img src={nationalPark} class="legendIcon" alt="national park icon" />
+            <img src={nationalPark} className="legendIcon" alt="national park icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             State Parks
-            <img src={statePark} class="legendIcon" alt="statePark icon" />
+            <img src={statePark} className="legendIcon" alt="statePark icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             Farms
-            <img src={farm} class="legendIcon" alt="farm icon" />
+            <img src={farm} className="legendIcon" alt="farm icon" />
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             Events
-            <img src={event} class="legendIcon" alt="farm icon" />
+            <img src={event} className="legendIcon" alt="farm icon" />
           </li>
         </ul>
 
