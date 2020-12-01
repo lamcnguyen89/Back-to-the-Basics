@@ -82,8 +82,8 @@ class InputData extends Component {
   
     render() { 
         return (  
-             <div> 
-                  <h3>Create New Location Waypoint</h3>
+             <div className="m-2"> 
+                  <h3>Create New Waypoint Location</h3>
                   <form onSubmit={this.onSubmit}>
                     
                     <div className="form-group"> 

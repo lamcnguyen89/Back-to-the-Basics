@@ -48,6 +48,15 @@ body {
     background-color:rgba(0,0,0,0);
 }
 
+.list-group-item {
+    background-color:rgba(0,0,0,0);
+}
+
 .searchbox{
     background-color: rgba(0,0,0,0);
+}
+
+.legendIcon {
+    height: 20px;
+    width: 20px;
 }

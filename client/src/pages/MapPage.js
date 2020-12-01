@@ -3,7 +3,7 @@ import { Header, Message } from "semantic-ui-react";
 import MapAPI from '../utils/MapAPI';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 import SearchbyName from '../components/SearchbyName';
-import SearchbyCategory from '../components/SearchByCategory';
+import NewLocation from '../components/NewLocation';
 import Legend from '../components/MapLegend';
 import mapStyles from '../components/mapStyles'; // Styling for the Google Map
 
@@ -111,7 +111,7 @@ class GoogleMap extends Component {
                 </div>
 
                 <div className="row">
-                   <div className="col-8" style={{ width: "100vw", height: "100vh" }}>
+                   <div className="col-8 p-2" style={{ width: "100vw", height: "100vh" }}>
                         <Map
                                 google={this.props.google}
                                 zoom={8}
@@ -138,14 +138,13 @@ class GoogleMap extends Component {
                        <div className="row">
                             <div className="col-12">
                                 <SearchbyName
-                                    className="form" 
                                     searchbyName={this.state.searchbyName}
                                 />    
                             </div>
                        </div>
                        <div className="row">
                             <div className="col-12">
-                                <SearchbyCategory
+                                <NewLocation
                                 className="form"
                                 />      
                             </div>
