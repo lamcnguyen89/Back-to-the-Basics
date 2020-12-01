@@ -6,6 +6,7 @@ import nationalPark from "../images/icons/nationalPark.png";
 import shopping from "../images/icons/shopping.jpg";
 import statePark from "../images/icons/statePark.jpg";
 import farm from "../images/icons/farm.png";
+import event from "../images/icons/event.png";
 
 
 function Legend() {
@@ -43,6 +44,10 @@ function Legend() {
           <li class="list-group-item">
             Farms
             <img src={farm} class="legendIcon" alt="farm icon" />
+          </li>
+          <li class="list-group-item">
+            Events
+            <img src={event} class="legendIcon" alt="farm icon" />
           </li>
         </ul>
 
