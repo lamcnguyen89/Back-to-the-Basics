@@ -4,6 +4,11 @@ span {
 
 .sidebarContainer{
     width: 27%;
+    
+}
+
+.cardStyles {
+    background-color: rgba(39, 22, 22, 0.4);
 }
 
 .cardHeader{

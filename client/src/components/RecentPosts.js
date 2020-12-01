@@ -35,7 +35,7 @@ const RecentPosts = (props) => {
     if(post.blogImage === "") return null;
 
   return(
-    <div style={props.style}>
+    <div className="recentPost" style={props.style}>
         <Card className="cardStyles" style={{marginBottom: '20px'}}>
             <div className="postImageWrapper">
                 <img src={require('../blogPostImages/' + post.blogImage)} alt="Post Image" />
