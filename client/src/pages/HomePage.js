@@ -9,6 +9,13 @@ import RecentPosts from '../components/RecentPosts';
  const Home = () => {
     // access to the isAuthenticated property from the auth reducer state
     const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
+    const galleryHeight = 200;
+    const galleryStyle = {
+        height: galleryHeight+'px',
+        overflow: 'hidden'
+    }
+    const sideImageHeight = galleryHeight / 3;
+    const imgAr = blogData.data.map(post => post.blogImage)
 
     const showLoginBtn = () => {
         if (!isAuthenticated) {
@@ -22,7 +29,6 @@ import RecentPosts from '../components/RecentPosts';
             )
         }
     }
-
 
     return (
         <>

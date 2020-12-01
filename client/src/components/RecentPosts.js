@@ -38,7 +38,11 @@ const RecentPosts = (props) => {
     <div style={props.style}>
         <Card className="cardStyles" style={{marginBottom: '20px'}}>
             <div className="postImageWrapper">
+<<<<<<< HEAD
                 <img className="mt-3" src={require('../blogPostImages/' + post.blogImage)} alt="Post Image" />
+=======
+                {/* <img src={require('../blogPostImages/' + post.blogImage)} alt="Post Image" /> */}
+>>>>>>> de7d346fe39d172cdef736caeb2c71af0ad28d54
             </div>
 
             <div style={{textAlign: 'center'}}>
