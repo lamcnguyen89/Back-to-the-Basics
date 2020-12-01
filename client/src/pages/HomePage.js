@@ -2,9 +2,11 @@ import React from 'react'
 import { Header, Message, Button, Icon } from "semantic-ui-react";
 import { Link, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
-import forest from "../../src/images/forest.jpeg";
+import Layout from '../components/Layout';
+import RecentPosts from '../components/RecentPosts';
 
-export const Home = () => {
+
+ const Home = () => {
     // access to the isAuthenticated property from the auth reducer state
     const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
 
@@ -21,23 +23,25 @@ export const Home = () => {
         }
     }
 
+
     return (
-        <div className="message">
-            <Message className="message-container" size="huge" secondary="true">
-                <Header size="huge"> 
-                    <h1>Back to the Basics Florida</h1>
-                </Header>
-                <p >Make the outdoors great again!</p>
-                <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
-                <Link to="/login">
-                    {showLoginBtn()}
-                </Link>
-                
-            </Message>
-            
-
-
-        </div>
+        <>
+            <div className="message">
+                <Message className="message-container" size="huge" secondary="true">
+                    <Header size="huge"> 
+                        <h1>Back to the Basics Florida</h1>
+                    </Header>
+                    <p >Make the outdoors great again!</p>
+                    <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
+                    <Link to="/login">
+                        {showLoginBtn()}
+                    </Link> 
+                </Message>
+            </div>
+            {/* <Layout>
+                <RecentPosts style={{width: '70%'}}/>
+            </Layout> */}
+        </>
     )
 };
 

@@ -29,16 +29,9 @@ const Login = (props) => {
 
     return (
         <div className="form-container">
-            <Header as='h2' secondary="true" textAlign='center'
-            style={{
-                listStyleType: "none",
-                color:"#49B0F8",
-                fontSize:"30pt",
-                // textDecoration: "underline",
-              }}
-            >
-                Enter to Find Your Adventure
-                </Header>
+            <Header as='h2' secondary="true" textAlign='center'>
+                <h1>Enter to Find Your Adventure</h1>
+            </Header>
             <LoginForm
                 renderMessage={renderFormMessage}
                 buttonText="Login"
