@@ -2,7 +2,7 @@ import React from 'react';
 
 function searchBar ({searchbyName}) {
     return (
-        <div className="searchbox m-2">
+        <div className="searchbox m-2 p-3">
                 <div className="form-group"> 
                     <h3>Search by Name: </h3>
                     <input  

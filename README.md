@@ -1,52 +1,40 @@
+# Back to the Basics: Online Tour Guide Built in React with Google Maps
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-
-  # Back to the Basics
-
-  ![](https://img.shields.io/badge/License-OpenSource-brightgreen)
-
-
-  # Description
   Due to most places being closed or running at limited capacity, has led most people to not being able to enjoy life and activities.  This full stack app assists users with outdoor activites to plan and do with multiple options across all of Florida
 
+### Prerequisites and Deployment
 
-  #Table of Contents
-  * [Installation](#installation)
-  * [TableOfContents](#tableOfContents)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Image](#image)
-  * [License](#license)
-  * [Questions](#questions)
+* Installation of Web Browser to view webpage
+* Visual Studio Code to analze the code for the website
+* Node.js
+* React JS
+* Installation of Node Package Modules
+ 
+## Built With
+
+* Visual Studio Code
+* Node.js
+* React JS
+* MongoDB Cloud
   
-  # Installation
+## Author
 
-  NPM install, once installed "npm run"
+**Lam Nguyen**
 
-  
-  # Usage
+## License
 
-  ldsajflksf
+The Unlicense
 
-  
-  # Images
+## Deployed Application
 
-  ![image1](https://user-images.githubusercontent.com/66220747/91246746-aa467200-e71e-11ea-9cd6-18429933c729.jpg)
-  
-  ![image2](https://user-images.githubusercontent.com/66220747/91246776-ba5e5180-e71e-11ea-97b1-8c64856c412c.jpg)
+View deployed application [here](https://midnight-machine-app.herokuapp.com/)
 
-
-
-  # License
-
-  OpenSource
-
-
-  
-  # Questions
-
+![Screenshot](./client/src/images/Screenshot.png)
   
 
-  [Link to my GitHub](https://github.com/whiterice2020)
 
-  If you have any quesitons, you can email me at github@delpadre.xyz
+
+
+
 
