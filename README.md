@@ -30,7 +30,7 @@ The Unlicense
 
 View deployed application [here](https://midnight-machine-app.herokuapp.com/)
 
-![Screenshot](./Wireframes/Screenshot.PNG)
+![Screenshot](./client/src/images/Screenshot.png)
   
 
 

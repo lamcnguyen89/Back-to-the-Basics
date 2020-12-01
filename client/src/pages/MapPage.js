@@ -104,16 +104,10 @@ class GoogleMap extends Component {
                     <div className="col-12">
                         <Message className="message-container" size="huge" secondary="true">
                             <Header size="huge"> 
-                                <h1>
-                                    Back to the Basics Florida
-                                </h1>
+                                <h1>Back to the Basics Florida</h1>
                             </Header>
-                            <p>
-                                Make the outdoors great again!
-                            </p>
-                            <p>
-                                ...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....
-                            </p>
+                            <p>Make the outdoors great again!</p>
+                            <p>...Except for all the deerflies, mosquitoes, poisonous plants, dangerous animals, poop, extreme heat and cold, rain, no electricity, and lack of toilets....</p>
                         </Message> 
                     </div>
                 </div>
