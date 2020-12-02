@@ -38,7 +38,7 @@ const RecentPosts = (props) => {
     <div className="recentPost" style={props.style}>
         <Card className="cardStyles" style={{marginBottom: '20px'}}>
             <div className="postImageWrapper">
-                <img className="mt-3" src={require('../blogPostImages/' + post.blogImage)} alt="Post Image" />
+                <img className="mt-3" src={require('../images/blogPostImages/' + post.blogImage)} alt="Post Image" />
             </div>
 
             <div style={{textAlign: 'center'}}>
