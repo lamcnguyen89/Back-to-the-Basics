@@ -41,12 +41,12 @@ const Sidebar = (props) => {
       <div className="sidebarContainer" style={{
           width: props.width,
       }}>
-            <Card className="cardStyles" style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
+            <Card className="cardStyles rounded" style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
                 <div className="cardHeader">
                     <span>About Us</span>
                 </div>
                 <div className="profileImageContainer">
-                    <img src="/images/Lam_Profile.jpg" alt="" />
+                    <img className="rounded" src="/images/Lam_Profile.jpg" alt="" />
                 </div>
                 <div className="cardBody">
                     <p className="personalBio">My name is Lam Nguyen. I'm a full stack developer skilled in React JS, Node JS, MySQL and Mongo DB.</p>
@@ -61,7 +61,7 @@ const Sidebar = (props) => {
                 </Card> 
             */}
 
-            <Card className="cardStyles" style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
+            <Card className="cardStyles rounded" style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
                 <div className="cardHeader">
                     <span>Recent Posts</span>
                 </div>

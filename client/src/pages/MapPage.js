@@ -113,23 +113,49 @@ class GoogleMap extends Component {
                 </div>
 
                 <div className="row">
-                   <div className="col-8 p-2" style={{ width: "100vw", height: "100vh" }}>
-                        <Map
-                                google={this.props.google}
-                                zoom={8}
-                                styles={mapStyles}
-                                initialCenter={{ lat: 27.6648, lng: -81.5158 }}
-                            >
-                                {this.displayMarkers()}
-                                <InfoWindow 
-                                    marker={this.state.activeMarker} 
-                                    visible={this.state.showingInfoWindow} 
-                                    onClose={this.onClose}>
-                                        <h1>{this.state.selectedPlace.name}</h1>
-                                        <h4>{this.state.selectedPlace.address}</h4>
-                                        <p>{this.state.selectedPlace.text}</p>
-                                </InfoWindow>
-                        </Map>
+                   <div className="col-8 mt-2" >
+                       <div className="row">
+                           <div className="col-12" style={{ width: "100vw", height: "100vh" }}>
+                                <Map
+                                    google={this.props.google}
+                                    zoom={8}
+                                    styles={mapStyles}
+                                    initialCenter={{ lat: 27.6648, lng: -81.5158 }}
+                                >
+                                    {this.displayMarkers()}
+                                    <InfoWindow    
+                                         marker={this.state.activeMarker} 
+                                         visible={this.state.showingInfoWindow} 
+                                         onClose={this.onClose}
+                                    >
+                                            <div className="container rounded infowindow p-2 ">
+                                                <div className="row">
+                                                    <div className="col-12">
+                                                        <div className="row">
+                                                            <div className="col-8">
+                                                                <h4>{this.state.selectedPlace.name}</h4>
+                                                            </div>
+                                                        </div>
+
+                                                        <p>{this.state.selectedPlace.address}</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                    </InfoWindow>
+                                </Map>
+                           </div>
+                       </div>
+                       <div className="row m-3 rounded infowindow">
+                           <div className="col-12">
+                                <h2>Location Information</h2>
+                                <h4>{this.state.selectedPlace.name}</h4>
+                                <p>{this.state.selectedPlace.address}</p>
+                                <p>{this.state.selectedPlace.text}</p>
+                           </div>
+                       </div>
+                               
                    </div>
                    <div className="col-4">
                        <div className="row">
@@ -153,7 +179,6 @@ class GoogleMap extends Component {
                        </div>
                    </div>
                 </div>
-
                
             </div>
         );

@@ -82,7 +82,7 @@ class InputData extends Component {
   
     render() { 
         return (  
-             <div className="newLocation m-2 p-3"> 
+             <div className="newLocation m-2 p-3 rounded"> 
                   <h3>Create New Waypoint Location</h3>
                   <form onSubmit={this.onSubmit}>
                     

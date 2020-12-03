@@ -13,11 +13,8 @@
     background-color: rgba(39, 22, 22, 0.4);
 }
 
-p {
-    color: white;
-}
 
-h1, h2, h3 {
+h1, h2, h3, h4, p, span {
     color: white;
 }
 
@@ -74,4 +71,8 @@ body {
 .legendIcon {
     height: 20px;
     width: 20px;
+}
+
+.infowindow {
+    background-color: rgba(39, 22, 22, 0.7);
 }

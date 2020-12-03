@@ -1,10 +1,10 @@
 import React from "react";
-import beach from "../images/icons/beach.jpg";
-import dispensary from "../images/icons/weed.jpg";
-import gun from "../images/icons/gun.jpg";
+import beach from "../images/icons/beach.png";
+import dispensary from "../images/icons/weed.png";
+import gun from "../images/icons/gun.png";
 import nationalPark from "../images/icons/nationalPark.png";
-import shopping from "../images/icons/shopping.jpg";
-import statePark from "../images/icons/statePark.jpg";
+import shopping from "../images/icons/shopping.png";
+import statePark from "../images/icons/statePark.png";
 import farm from "../images/icons/farm.png";
 import event from "../images/icons/event.png";
 
