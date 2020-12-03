@@ -5,6 +5,7 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 import SearchbyName from '../components/SearchbyName';
 import NewLocation from '../components/NewLocation';
 import Legend from '../components/MapLegend';
+import LocationInfo from '../components/LocationInfo';
 import mapStyles from '../components/mapStyles'; // Styling for the Google Map
 
 // Source 1: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
@@ -78,7 +79,6 @@ class GoogleMap extends Component {
 
     // Event handler for when the map and marker are clicked.
     onMarkerClick = (props, marker, e) => {
-        console.log("marker clicked");
         this.setState({
             selectedPlace: props,
             activeMarker: marker,
@@ -115,7 +115,7 @@ class GoogleMap extends Component {
                 <div className="row">
                    <div className="col-8 mt-2" >
                        <div className="row">
-                           <div className="col-12" style={{ width: "100vw", height: "100vh" }}>
+                           <div className="col-12 rounded" style={{ width: "100vw", height: "100vh" }}>
                                 <Map
                                     google={this.props.google}
                                     zoom={8}
@@ -149,10 +149,7 @@ class GoogleMap extends Component {
                        </div>
                        <div className="row m-3 rounded infowindow">
                            <div className="col-12">
-                                <h2>Location Information</h2>
-                                <h4>{this.state.selectedPlace.name}</h4>
-                                <p>{this.state.selectedPlace.address}</p>
-                                <p>{this.state.selectedPlace.text}</p>
+                                <LocationInfo locationData={this.state.selectedPlace} />
                            </div>
                        </div>
                                

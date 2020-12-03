@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './sidebarstyle.css';
 import Card from './Card';
-import blogPost from '../data/blog.json';
+import blogPost from '../blogdata/blog.json';
 import Pagination from './Pagination';
 import PostLinks from './PostLinks'
 

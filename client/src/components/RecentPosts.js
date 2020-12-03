@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
-import blogPost from '../data/blog.json';
+import blogPost from '../blogdata/blog.json';
 import { NavLink, Link } from 'react-router-dom';
 import './recentpostsstyle.css';
 
