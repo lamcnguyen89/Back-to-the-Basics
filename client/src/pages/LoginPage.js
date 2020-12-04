@@ -29,7 +29,7 @@ const Login = (props) => {
 
     return (
         <div className="form-container">
-            <Header as='h2' secondary="true" textAlign='center'>
+            <Header secondary="true" textAlign='center'>
                 <h1>Enter to Find Your Adventure</h1>
             </Header>
             <LoginForm
