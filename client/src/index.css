@@ -1,0 +1,78 @@
+/* NavBar Styling */
+.ui.menu:first-child {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Jumbotron/Message styling */
+.ui.message.message-container {
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0;
+    margin: 0;
+    background-color: rgba(39, 22, 22, 0.4);
+}
+
+
+h1, h2, h3, h4, p, span {
+    color: white;
+}
+
+/* UserForm styling */
+.form-container{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+/* UserForm alert message */
+.ui.alertMssg {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+body {
+    background-color: #909497;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(./images/Background_Image.png);
+
+}
+
+/* GoogleMap Container Styling */
+.mapContainer {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    width: 500px;
+    height:400px;
+}
+
+.card {
+    background-color:rgba(39, 22, 22, 0.4);
+    color: white;
+}
+
+.list-group-item {
+    background-color:rgba(39, 22, 22, 0);
+    color: white;
+}
+
+.searchbox{
+    background-color: rgba(39, 22, 22, 0.4);
+    color: white;
+}
+
+.newLocation{
+    background-color: rgba(39, 22, 22, 0.4);
+    color: white;
+}
+
+.legendIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.infowindow {
+    background-color: rgba(39, 22, 22, 0.7);
+}
