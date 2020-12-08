@@ -28,7 +28,7 @@ The Unlicense
 
 ## Deployed Application
 
-View deployed application [here](https://midnight-machine-app.herokuapp.com/)
+View deployed application [here](https://back-to-the-basics.herokuapp.com/)
 
 ![Blog Component](./Wireframes/Screenshot.PNG)
 ![Interactive Map](./Wireframes/Screenshot_02.PNG)
