@@ -19,9 +19,14 @@ if (process.env.NODE_ENV === "production") {
 };
 
 // connect to Mongo DB 
-mongoose.connect(config.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: true })
+mongoose.connect(config.MONGO_URI, 
+    { useNewUrlParser: true, 
+    useUnifiedTopology: true, 
+    useCreateIndex: true, 
+    useFindAndModify: true })
     .then(() => console.log(`Successfully loaded MongoDB`))
     .catch(err => console.log(err));
+
 
 // Connect to Routes for User Login and then Map Markers.
 app.use(userLogin);
